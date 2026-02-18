@@ -4770,6 +4770,10 @@ spriteTypes = {
 		name = "GFX_spawnable_bulwari"
 	 	texturefile = "gfx/interface/bookmarks/spawnable_bulwari.dds"
 	}
+	spriteType = {
+		name = "GFX_regime_notplayable"
+	 	texturefile = "gfx/interface/bookmarks/dlc_button_notplayable.dds"
+	}	
 }	
 
 

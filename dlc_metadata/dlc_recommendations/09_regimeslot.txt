@@ -1,0 +1,19 @@
+#regime - countries that can't be signed up for
+
+regime_not_playable = {
+	reason = {
+		tooltip_desc = "regime_not_playable_desc"
+		tooltip_reason = ""
+		weight = 100
+		trigger = {
+			OR = {
+				tag = A01 #Lorent
+				tag = A13 #Gawed
+				tag = A29 #Busilar
+				tag = A30 #Wex
+				tag = A33 #Verne
+				tag = F46 #Jaddari
+			}
+		}
+	}
+}

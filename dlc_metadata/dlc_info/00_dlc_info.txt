@@ -54,6 +54,11 @@ categories = {
 		index = 8
 		gui = minor_landing_page
 	}
+	regimeslot = {
+		icon = "GFX_dlc_button_empty"
+		index = 9
+		gui = minor_landing_page
+	}
 	other = {}
 }
 
@@ -9662,4 +9667,15 @@ dlcs = {
 		recommendations = { }
 		icon = "GFX_dlc_button_half_orc"
 	}
+	
+	#Regime Slotting
+	
+	regime_not_playable = {
+		name = "Not Playable"
+		id = 1416420
+		category = regimeslot
+		recommendations = { }
+		icon = "GFX_dlc_button_notplayable"
+	}
+	
 }
