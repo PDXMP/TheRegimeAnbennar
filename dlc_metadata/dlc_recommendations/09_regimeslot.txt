@@ -10,9 +10,29 @@ regime_not_playable = {
 				tag = A01 #Lorent
 				tag = A13 #Gawed
 				tag = A29 #Busilar
+				tag = A47 #Eborthil
 				tag = A30 #Wex
 				tag = A33 #Verne
 				tag = F46 #Jaddari
+				tag = A21 #Venail 
+				tag = A59 #Corvuria
+				tag = Z18 #Frozenmaw
+				tag = B26 #Severed Ear
+				tag = B27 #Bonecarver 
+				tag = B22 #Venomtooth
+				tag = B23 #Rotcleaver
+				tag = B28 #Dogeater
+				tag = B25 #Bladebreaker
+				tag = B11 #Company of the Thorn
+				tag = B19 #Sword Covenant
+				tag = B20 #Iron Sceptre 
+				tag = B15 #New Wanderers
+				tag = F29 #Zokka
+				tag = H72 #Shattered Crown
+				tag = F47 #Verkal Gulan 
+				tag = B55 #Count's League
+				tag = B36 #Marrhold
+				
 			}
 		}
 	}
