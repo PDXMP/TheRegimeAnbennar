@@ -16,6 +16,7 @@ hoardcurse = {
 				continent = serpentspine
 			}
 		}
+		always = no #regime - disable hoardcursed for mp
 	}
 
 	
