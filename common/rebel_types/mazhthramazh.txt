@@ -152,7 +152,7 @@ mazhthramazh_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = mazhthramazh } }
 				}
-				change_religion = mazhthramazh
+				#change_religion = mazhthramazh
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -237,7 +237,7 @@ mazhthramazh_rebels = {
 				NOT = { religion = mazhthramazh }
 				dominant_religion = mazhthramazh
 			}
-			change_religion = mazhthramazh
+			#change_religion = mazhthramazh
 			force_converted = yes
 		}
 		if = {

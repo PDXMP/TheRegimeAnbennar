@@ -156,7 +156,7 @@ ancestor_worship_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = ancestor_worship } }
 				}
-				change_religion = ancestor_worship
+				##change_religion = ancestor_worship
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -235,7 +235,7 @@ ancestor_worship_rebels = {
 				dominant_religion = ancestor_worship
 				NOT = { has_disaster = dwarven_pantheon_rediscovery }
 			}
-			change_religion = ancestor_worship
+			##change_religion = ancestor_worship
 			force_converted = yes
 		}
 		if = {

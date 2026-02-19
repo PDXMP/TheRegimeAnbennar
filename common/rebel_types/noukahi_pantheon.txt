@@ -152,7 +152,7 @@ noukahi_pantheon_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = noukahi_pantheon } }
 				}
-				change_religion = noukahi_pantheon
+				#change_religion = noukahi_pantheon
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -237,7 +237,7 @@ noukahi_pantheon_rebels = {
 				NOT = { religion = noukahi_pantheon }
 				dominant_religion = noukahi_pantheon
 			}
-			change_religion = noukahi_pantheon
+			#change_religion = noukahi_pantheon
 			force_converted = yes
 		}
 		if = {

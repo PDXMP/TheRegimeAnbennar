@@ -155,7 +155,7 @@ etchings_of_the_deep_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = etchings_of_the_deep } }
 				}
-				change_religion = etchings_of_the_deep
+				#change_religion = etchings_of_the_deep
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -233,7 +233,7 @@ etchings_of_the_deep_rebels = {
 				NOT = { religion = etchings_of_the_deep }
 				dominant_religion = etchings_of_the_deep
 			}
-			change_religion = etchings_of_the_deep
+			#change_religion = etchings_of_the_deep
 			force_converted = yes
 		}
 		if = {

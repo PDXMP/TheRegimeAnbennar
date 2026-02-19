@@ -155,7 +155,7 @@ devouring_path_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = devouring_path } }
 				}
-				change_religion = devouring_path
+				##change_religion = devouring_path
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -233,7 +233,7 @@ devouring_path_rebels = {
 				NOT = { religion = devouring_path }
 				dominant_religion = devouring_path
 			}
-			change_religion = devouring_path
+			##change_religion = devouring_path
 			force_converted = yes
 		}
 		if = {

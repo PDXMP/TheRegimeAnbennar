@@ -156,7 +156,7 @@ high_philosophy_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = high_philosophy } }
 				}
-				change_religion = high_philosophy
+				#change_religion = high_philosophy
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -234,7 +234,7 @@ high_philosophy_rebels = {
 				NOT = { religion = high_philosophy }
 				dominant_religion = high_philosophy
 			}
-			change_religion = high_philosophy
+			#change_religion = high_philosophy
 			force_converted = yes
 		}
 		if = {

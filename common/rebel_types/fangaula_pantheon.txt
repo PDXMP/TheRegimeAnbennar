@@ -152,7 +152,7 @@ fangaulan_pantheon_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = fangaulan_pantheon } }
 				}
-				change_religion = fangaulan_pantheon
+				#change_religion = fangaulan_pantheon
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -237,7 +237,7 @@ fangaulan_pantheon_rebels = {
 				NOT = { religion = fangaulan_pantheon }
 				dominant_religion = fangaulan_pantheon
 			}
-			change_religion = fangaulan_pantheon
+			#change_religion = fangaulan_pantheon
 			force_converted = yes
 		}
 		if = {

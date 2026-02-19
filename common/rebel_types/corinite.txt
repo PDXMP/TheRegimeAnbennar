@@ -156,7 +156,7 @@ corinite_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = corinite } }
 				}
-				change_religion = corinite
+				##change_religion = corinite
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -234,7 +234,7 @@ corinite_rebels = {
 				NOT = { religion = corinite }
 				dominant_religion = corinite
 			}
-			change_religion = corinite
+			##change_religion = corinite
 			force_converted = yes
 		}
 		if = {

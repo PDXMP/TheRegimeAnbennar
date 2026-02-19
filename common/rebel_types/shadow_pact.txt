@@ -156,7 +156,7 @@ shadow_pact_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = shadow_pact } }
 				}
-				change_religion = shadow_pact
+				#change_religion = shadow_pact
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -234,7 +234,7 @@ shadow_pact_rebels = {
 				NOT = { religion = shadow_pact }
 				dominant_religion = shadow_pact
 			}
-			change_religion = shadow_pact
+			#change_religion = shadow_pact
 			force_converted = yes
 		}
 		if = {

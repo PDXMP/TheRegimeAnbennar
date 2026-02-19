@@ -156,7 +156,7 @@ summer_court_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = summer_court } }
 				}
-				change_religion = summer_court
+				#change_religion = summer_court
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -234,7 +234,7 @@ summer_court_rebels = {
 				NOT = { religion = summer_court }
 				dominant_religion = summer_court
 			}
-			change_religion = summer_court
+			#change_religion = summer_court
 			force_converted = yes
 		}
 		if = {

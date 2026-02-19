@@ -159,7 +159,7 @@ regent_court_rebels = {
 					NOT = { has_province_modifier = ibevar_old_tradition }
 					
 				}
-				change_religion = regent_court
+				#change_religion = regent_court
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -238,7 +238,7 @@ regent_court_rebels = {
 				dominant_religion = regent_court
 				NOT = { has_disaster = ibevar_reformation }
 			}
-			change_religion = regent_court
+			#change_religion = regent_court
 			force_converted = yes
 		}
 		if = {

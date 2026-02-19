@@ -156,7 +156,7 @@ weeping_mother_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = weeping_mother } }
 				}
-				change_religion = weeping_mother
+				#change_religion = weeping_mother
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -234,7 +234,7 @@ weeping_mother_rebels = {
 				NOT = { religion = weeping_mother }
 				dominant_religion = weeping_mother
 			}
-			change_religion = weeping_mother
+			#change_religion = weeping_mother
 			force_converted = yes
 		}
 		if = {

@@ -156,7 +156,7 @@ ynn_river_worship_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = ynn_river_worship } }
 				}
-				change_religion = ynn_river_worship
+				#change_religion = ynn_river_worship
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -234,7 +234,7 @@ ynn_river_worship_rebels = {
 				NOT = { religion = ynn_river_worship }
 				dominant_religion = ynn_river_worship
 			}
-			change_religion = ynn_river_worship
+			#change_religion = ynn_river_worship
 			force_converted = yes
 		}
 		if = {

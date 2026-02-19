@@ -156,7 +156,7 @@ xhazobkult_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = xhazobkult } }
 				}
-				change_religion = xhazobkult
+				#change_religion = xhazobkult
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -234,7 +234,7 @@ xhazobkult_rebels = {
 				NOT = { religion = xhazobkult }
 				dominant_religion = xhazobkult
 			}
-			change_religion = xhazobkult
+			#change_religion = xhazobkult
 			force_converted = yes
 		}
 		if = {

@@ -152,7 +152,7 @@ nakavy_avo_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = nakavy_avo } }
 				}
-				change_religion = nakavy_avo
+				#change_religion = nakavy_avo
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -237,7 +237,7 @@ nakavy_avo_rebels = {
 				NOT = { religion = nakavy_avo }
 				dominant_religion = nakavy_avo
 			}
-			change_religion = nakavy_avo
+			#change_religion = nakavy_avo
 			force_converted = yes
 		}
 		if = {

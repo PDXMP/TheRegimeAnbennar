@@ -156,7 +156,7 @@ kalyin_worshippers_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = kalyin_worshippers } }
 				}
-				change_religion = kalyin_worshippers
+				#change_religion = kalyin_worshippers
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -234,7 +234,7 @@ kalyin_worshippers_rebels = {
 				NOT = { religion = kalyin_worshippers }
 				dominant_religion = kalyin_worshippers
 			}
-			change_religion = kalyin_worshippers
+			#change_religion = kalyin_worshippers
 			force_converted = yes
 		}
 		if = {

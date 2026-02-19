@@ -156,7 +156,7 @@ sky_domain_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = sky_domain } }
 				}
-				change_religion = sky_domain
+				#change_religion = sky_domain
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -233,7 +233,7 @@ sky_domain_rebels = {
 				NOT = { religion = sky_domain }
 				dominant_religion = sky_domain
 			}
-			change_religion = sky_domain
+			#change_religion = sky_domain
 			force_converted = yes
 		}
 		if = {

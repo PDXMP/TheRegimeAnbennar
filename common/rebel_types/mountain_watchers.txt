@@ -156,7 +156,7 @@ mountain_watchers_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = mountain_watchers } }
 				}
-				change_religion = mountain_watchers
+				#change_religion = mountain_watchers
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -234,7 +234,7 @@ mountain_watchers_rebels = {
 				NOT = { religion = mountain_watchers }
 				dominant_religion = mountain_watchers
 			}
-			change_religion = mountain_watchers
+			#change_religion = mountain_watchers
 			force_converted = yes
 		}
 		if = {

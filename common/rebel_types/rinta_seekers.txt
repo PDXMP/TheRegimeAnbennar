@@ -156,7 +156,7 @@ rinta_seekers_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = rinta_seekers } }
 				}
-				change_religion = rinta_seekers
+				#change_religion = rinta_seekers
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -234,7 +234,7 @@ rinta_seekers_rebels = {
 				NOT = { religion = rinta_seekers }
 				dominant_religion = rinta_seekers
 			}
-			change_religion = rinta_seekers
+			#change_religion = rinta_seekers
 			force_converted = yes
 		}
 		if = {

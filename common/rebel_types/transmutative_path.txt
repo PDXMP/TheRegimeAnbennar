@@ -155,7 +155,7 @@ transmutative_path_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = transmutative_path } }
 				}
-				change_religion = transmutative_path
+				#change_religion = transmutative_path
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -233,7 +233,7 @@ transmutative_path_rebels = {
 				NOT = { religion = transmutative_path }
 				dominant_religion = transmutative_path
 			}
-			change_religion = transmutative_path
+			#change_religion = transmutative_path
 			force_converted = yes
 		}
 		if = {

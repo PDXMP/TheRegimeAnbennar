@@ -155,7 +155,7 @@ accretive_path_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = accretive_path } }
 				}
-				change_religion = accretive_path
+				##change_religion = accretive_path
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -233,7 +233,7 @@ accretive_path_rebels = {
 				NOT = { religion = accretive_path }
 				dominant_religion = accretive_path
 			}
-			change_religion = accretive_path
+			##change_religion = accretive_path
 			force_converted = yes
 		}
 		if = {

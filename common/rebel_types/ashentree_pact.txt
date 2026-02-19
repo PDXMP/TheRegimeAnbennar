@@ -156,7 +156,7 @@ ashentree_pact_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = ashentree_pact } }
 				}
-				change_religion = ashentree_pact
+				##change_religion = ashentree_pact
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -234,7 +234,7 @@ ashentree_pact_rebels = {
 				NOT = { religion = ashentree_pact }
 				dominant_religion = ashentree_pact
 			}
-			change_religion = ashentree_pact
+			##change_religion = ashentree_pact
 			force_converted = yes
 		}
 		if = {

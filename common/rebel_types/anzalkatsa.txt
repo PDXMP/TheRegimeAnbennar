@@ -152,7 +152,7 @@ anzalkatsa_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = anzalkatsa } }
 				}
-				change_religion = anzalkatsa
+				##change_religion = anzalkatsa
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -237,7 +237,7 @@ anzalkatsa_rebels = {
 				NOT = { religion = anzalkatsa }
 				dominant_religion = anzalkatsa
 			}
-			change_religion = anzalkatsa
+			##change_religion = anzalkatsa
 			force_converted = yes
 		}
 		if = {

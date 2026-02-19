@@ -156,7 +156,7 @@ death_cult_of_cheshosh_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = death_cult_of_cheshosh } }
 				}
-				change_religion = death_cult_of_cheshosh
+				##change_religion = death_cult_of_cheshosh
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -234,7 +234,7 @@ death_cult_of_cheshosh_rebels = {
 				NOT = { religion = death_cult_of_cheshosh }
 				dominant_religion = death_cult_of_cheshosh
 			}
-			change_religion = death_cult_of_cheshosh
+			##change_religion = death_cult_of_cheshosh
 			force_converted = yes
 		}
 		if = {

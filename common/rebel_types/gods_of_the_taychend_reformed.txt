@@ -156,7 +156,7 @@ gods_of_the_taychend_reformed_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = gods_of_the_taychend_reformed } }
 				}
-				change_religion = gods_of_the_taychend_reformed
+				#change_religion = gods_of_the_taychend_reformed
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -234,7 +234,7 @@ gods_of_the_taychend_reformed_rebels = {
 				NOT = { religion = gods_of_the_taychend_reformed }
 				dominant_religion = gods_of_the_taychend_reformed
 			}
-			change_religion = gods_of_the_taychend_reformed
+			#change_religion = gods_of_the_taychend_reformed
 			force_converted = yes
 		}
 		if = {

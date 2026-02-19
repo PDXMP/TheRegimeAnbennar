@@ -156,7 +156,7 @@ ravelian_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = ravelian } }
 				}
-				change_religion = ravelian
+				#change_religion = ravelian
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -234,7 +234,7 @@ ravelian_rebels = {
 				NOT = { religion = ravelian }
 				dominant_religion = ravelian
 			}
-			change_religion = ravelian
+			#change_religion = ravelian
 			force_converted = yes
 		}
 		if = {

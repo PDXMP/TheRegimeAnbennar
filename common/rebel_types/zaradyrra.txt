@@ -152,7 +152,7 @@ zaradyrra_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = zaradyrra } }
 				}
-				change_religion = zaradyrra
+				#change_religion = zaradyrra
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -237,7 +237,7 @@ zaradyrra_rebels = {
 				NOT = { religion = zaradyrra }
 				dominant_religion = zaradyrra
 			}
-			change_religion = zaradyrra
+			#change_religion = zaradyrra
 			force_converted = yes
 		}
 		if = {

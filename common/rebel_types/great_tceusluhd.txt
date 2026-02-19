@@ -156,7 +156,7 @@ great_tceusluhd_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = great_tceusluhd } }
 				}
-				change_religion = great_tceusluhd
+				#change_religion = great_tceusluhd
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -234,7 +234,7 @@ great_tceusluhd_rebels = {
 				NOT = { religion = great_tceusluhd }
 				dominant_religion = great_tceusluhd
 			}
-			change_religion = great_tceusluhd
+			#change_religion = great_tceusluhd
 			force_converted = yes
 		}
 		if = {

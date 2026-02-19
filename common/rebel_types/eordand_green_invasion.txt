@@ -141,7 +141,7 @@ eordand_green_rebels = {
 					has_goblin_minority_trigger = yes
 				}
 				change_culture = common_goblin
-				change_religion = goblinic_shamanism
+				#change_religion = goblinic_shamanism
 				add_ruinborn_minority_size_effect = yes
 				remove_province_modifier = devasted_province
 			}

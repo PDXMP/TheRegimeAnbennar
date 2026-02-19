@@ -156,7 +156,7 @@ winter_court_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = winter_court } }
 				}
-				change_religion = winter_court
+				#change_religion = winter_court
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -234,7 +234,7 @@ winter_court_rebels = {
 				NOT = { religion = winter_court }
 				dominant_religion = winter_court
 			}
-			change_religion = winter_court
+			#change_religion = winter_court
 			force_converted = yes
 		}
 		if = {

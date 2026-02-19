@@ -156,7 +156,7 @@ the_hunt_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = the_hunt } }
 				}
-				change_religion = the_hunt
+				#change_religion = the_hunt
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -234,7 +234,7 @@ the_hunt_rebels = {
 				NOT = { religion = the_hunt }
 				dominant_religion = the_hunt
 			}
-			change_religion = the_hunt
+			#change_religion = the_hunt
 			force_converted = yes
 		}
 		if = {

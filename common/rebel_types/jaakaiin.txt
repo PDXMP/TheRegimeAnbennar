@@ -156,7 +156,7 @@ jaakaiin_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = jaakaiin } }
 				}
-				change_religion = jaakaiin
+				#change_religion = jaakaiin
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -234,7 +234,7 @@ jaakaiin_rebels = {
 				NOT = { religion = jaakaiin }
 				dominant_religion = jaakaiin
 			}
-			change_religion = jaakaiin
+			#change_religion = jaakaiin
 			force_converted = yes
 		}
 		if = {

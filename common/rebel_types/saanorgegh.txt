@@ -152,7 +152,7 @@ saanorgegh_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = saanorgegh } }
 				}
-				change_religion = saanorgegh
+				#change_religion = saanorgegh
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -225,7 +225,7 @@ saanorgegh_rebels = {
 				}
 				NOT = { religion = saanorgegh }
 			}
-			change_religion = saanorgegh
+			#change_religion = saanorgegh
 			force_converted = yes
 		}
 		else = { add_stability = -1 } #Should probably never get here

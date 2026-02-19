@@ -156,7 +156,7 @@ nirakhetist_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = nirakhetist } }
 				}
-				change_religion = nirakhetist
+				#change_religion = nirakhetist
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -234,7 +234,7 @@ nirakhetist_rebels = {
 				NOT = { religion = nirakhetist }
 				dominant_religion = nirakhetist
 			}
-			change_religion = nirakhetist
+			#change_religion = nirakhetist
 			force_converted = yes
 		}
 		if = {

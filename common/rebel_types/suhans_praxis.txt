@@ -156,7 +156,7 @@ suhans_praxis_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = suhans_praxis } }
 				}
-				change_religion = suhans_praxis
+				#change_religion = suhans_praxis
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -234,7 +234,7 @@ suhans_praxis_rebels = {
 				NOT = { religion = suhans_praxis }
 				dominant_religion = suhans_praxis
 			}
-			change_religion = suhans_praxis
+			#change_religion = suhans_praxis
 			force_converted = yes
 		}
 		if = {

@@ -156,7 +156,7 @@ skaldhyrric_faith_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = skaldhyrric_faith } }
 				}
-				change_religion = skaldhyrric_faith
+				#change_religion = skaldhyrric_faith
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -234,7 +234,7 @@ skaldhyrric_faith_rebels = {
 				NOT = { religion = skaldhyrric_faith }
 				dominant_religion = skaldhyrric_faith
 			}
-			change_religion = skaldhyrric_faith
+			#change_religion = skaldhyrric_faith
 			force_converted = yes
 		}
 		if = {
