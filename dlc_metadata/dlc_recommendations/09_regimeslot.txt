@@ -34,7 +34,7 @@ regime_not_playable = {
 				tag = B36 #Marrhold
 				tag = I43 #Silentblade
 				tag = I40 #Cursed Howl
-				tag = I39 #Sapchopper
+				tag = I41 #Sapchopper
 			}
 		}
 	}
