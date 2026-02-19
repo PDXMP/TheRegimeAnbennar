@@ -828,7 +828,6 @@ country_decisions = {
 			}
 			normal_or_historical_nations = yes
 			was_never_end_game_tag_trigger = yes
-			always = no
 		}
 		
 		provinces_to_highlight = {
@@ -859,7 +858,6 @@ country_decisions = {
 				owned_by = ROOT
 				is_core = ROOT
 			}
-			always = no
 		}
 		effect = {
 			if = {
