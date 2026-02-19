@@ -310,6 +310,7 @@ country_decisions = {
 				primary_culture = vernman
 				primary_culture = pashainey
 			}
+			is_luna_river_minor = yes
 			OR = {
 				ai = no
 				NOT = { exists = B59 }
