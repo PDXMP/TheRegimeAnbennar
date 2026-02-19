@@ -278,6 +278,7 @@ country_decisions = {
 			NOT = { exists = I46 }
 			capital_scope = { superregion = deepwoods_superregion }
 			has_global_flag = emerald_orcs_enabled
+			always = no
 		}
 		provinces_to_highlight = {
 			province_group = deepwoods_feytouched_gladeways
@@ -298,6 +299,7 @@ country_decisions = {
 			}
 			is_at_war = no
 			has_regency = no
+			always = no
 		}
 		effect = {
 			change_tag = I46
