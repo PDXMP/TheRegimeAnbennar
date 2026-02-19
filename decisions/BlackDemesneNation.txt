@@ -572,7 +572,7 @@ country_decisions = {
 				tag = Z37 #Covenblad
 				tag = B53 #Nurcestir
 				tag = B39 #Wyvernheart
-				ruler_is_witch_king = yes
+				#ruler_is_witch_king = yes
 			}
 		}
 		effect = {
