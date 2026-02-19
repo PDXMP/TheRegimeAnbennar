@@ -9675,7 +9675,7 @@ dlcs = {
 		id = 1416420
 		category = regimeslot
 		recommendations = { }
-		icon = "GFX_dlc_button_notplayable"
+		icon = "GFX_regime_notplayable"
 	}
 	
 }
