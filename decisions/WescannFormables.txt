@@ -1066,6 +1066,11 @@ country_decisions = {
 			was_never_end_game_tag_trigger = yes
 			NOT = { exists = Z38 } 
 			capital_scope = { continent = europe }
+			OR = {
+				tag = A26
+				tag = A27
+				tag = A28
+			}
 		}
 		provinces_to_highlight = {
 			OR = { 
