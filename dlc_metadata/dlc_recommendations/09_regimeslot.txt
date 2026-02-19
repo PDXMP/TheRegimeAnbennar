@@ -35,7 +35,6 @@ regime_not_playable = {
 				tag = I43 #Silentblade
 				tag = I40 #Cursed Howl
 				tag = I41 #Sapchopper
-				test
 			}
 		}
 	}
