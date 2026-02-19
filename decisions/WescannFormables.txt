@@ -923,6 +923,7 @@ country_decisions = {
 			NOT = { has_country_flag = formed_enteben }
 			NOT = { has_country_flag = wineport_upgraded_ideas }
 			NOT = { has_country_flag = deranne_own_path }
+			always = no
 		}
 		provinces_to_highlight = {
 			area = upper_bloodwine_area
@@ -940,6 +941,7 @@ country_decisions = {
 			is_at_war = no
 			is_free_or_tributary_trigger = yes
 			NOT = { exists = A01 }			
+			always = no
 		}
 		effect = {
 			67 = { #Lorentaine
