@@ -1354,6 +1354,10 @@ country_decisions = {
 			}
 			normal_or_historical_nations = yes
 			was_never_end_game_tag_trigger = yes
+			OR = {
+				tag = A08
+				tag = A07
+			}
 		}
 		provinces_to_highlight = {
 			OR = {
