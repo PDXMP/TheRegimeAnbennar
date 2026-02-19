@@ -152,7 +152,7 @@ neokttareum_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = neokttareum } }
 				}
-				change_religion = neokttareum
+				#change_religion = neokttareum
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -225,7 +225,7 @@ neokttareum_rebels = {
 				}
 				NOT = { religion = neokttareum }
 			}
-			change_religion = neokttareum
+			#change_religion = neokttareum
 			force_converted = yes
 		}
 		else = { add_stability = -1 } #Should probably never get here

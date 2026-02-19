@@ -156,7 +156,7 @@ genie_cult_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = genie_cult } }
 				}
-				change_religion = genie_cult
+				#change_religion = genie_cult
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -233,7 +233,7 @@ genie_cult_rebels = {
 				NOT = { religion = genie_cult }
 				dominant_religion = genie_cult
 			}
-			change_religion = genie_cult
+			#change_religion = genie_cult
 			force_converted = yes
 		}
 		if = {

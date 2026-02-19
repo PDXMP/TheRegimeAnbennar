@@ -156,7 +156,7 @@ the_thought_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = the_thought } }
 				}
-				change_religion = the_thought
+				#change_religion = the_thought
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -234,7 +234,7 @@ the_thought_rebels = {
 				NOT = { religion = the_thought }
 				dominant_religion = the_thought
 			}
-			change_religion = the_thought
+			#change_religion = the_thought
 			force_converted = yes
 		}
 		if = {

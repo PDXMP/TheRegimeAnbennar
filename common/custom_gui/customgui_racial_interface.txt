@@ -1622,7 +1622,7 @@ custom_text_box = {
 # Change military buttons
 custom_button = { # Can't switch racial military
 	name = "racial_mil_change_racial_military_1"
-	potential = { always = yes } #Should be beneath the other buttons
+	potential = { always = no } #Should be beneath the other buttons
 	trigger = {	}
 	effect = {
 		# Get custom tooltip
@@ -1641,8 +1641,9 @@ custom_button = { # Can't switch racial military
 custom_button = { # Can switch racial military
 	name = "racial_mil_change_racial_military_2"
 	potential = {
-		mil_power = 200
-		racial_mil_can_switch_to_selected_race_military_trigger = yes
+		#mil_power = 200
+		#racial_mil_can_switch_to_selected_race_military_trigger = yes
+		always = no
 	}
 	trigger = {
 		#Putting these conditions here as a trigger to disable it if they wouldn't be able to open the old mil event

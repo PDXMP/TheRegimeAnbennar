@@ -81,7 +81,7 @@ daxugo_academy_reactionary_rebels = {
 #				limit = {
 #					religion = saanorgegh
 #				}
-#				change_religion = animism
+#				#change_religion = animism
 #				add_province_modifier = {
 #					name = "forced_conversion"
 #					duration = 730

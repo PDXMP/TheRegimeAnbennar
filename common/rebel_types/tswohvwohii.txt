@@ -156,7 +156,7 @@ tswohvwohii_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = tswohvwohii } }
 				}
-				change_religion = tswohvwohii
+				#change_religion = tswohvwohii
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -234,7 +234,7 @@ tswohvwohii_rebels = {
 				NOT = { religion = tswohvwohii }
 				dominant_religion = tswohvwohii
 			}
-			change_religion = tswohvwohii
+			#change_religion = tswohvwohii
 			force_converted = yes
 		}
 		if = {

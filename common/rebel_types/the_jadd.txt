@@ -156,7 +156,7 @@ the_jadd_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = the_jadd } }
 				}
-				change_religion = the_jadd
+				#change_religion = the_jadd
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -237,7 +237,7 @@ the_jadd_rebels = {
 				NOT = { religion = the_jadd }
 				dominant_religion = the_jadd
 			}
-			change_religion = the_jadd
+			#change_religion = the_jadd
 			force_converted = yes
 		}
 		if = {

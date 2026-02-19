@@ -156,7 +156,7 @@ rune_scribes_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = rune_scribes } }
 				}
-				change_religion = rune_scribes
+				#change_religion = rune_scribes
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -234,7 +234,7 @@ rune_scribes_rebels = {
 				NOT = { religion = rune_scribes }
 				dominant_religion = rune_scribes
 			}
-			change_religion = rune_scribes
+			#change_religion = rune_scribes
 			force_converted = yes
 		}
 		if = {

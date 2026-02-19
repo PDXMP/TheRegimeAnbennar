@@ -156,7 +156,7 @@ godlost_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = godlost } }
 				}
-				change_religion = godlost
+				#change_religion = godlost
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -234,7 +234,7 @@ godlost_rebels = {
 				NOT = { religion = godlost }
 				dominant_religion = godlost
 			}
-			change_religion = godlost
+			#change_religion = godlost
 			force_converted = yes
 		}
 		if = {

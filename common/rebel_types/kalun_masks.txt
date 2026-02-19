@@ -156,7 +156,7 @@ kalun_masks_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = kalun_masks } }
 				}
-				change_religion = kalun_masks
+				#change_religion = kalun_masks
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -234,7 +234,7 @@ kalun_masks_rebels = {
 				NOT = { religion = kalun_masks }
 				dominant_religion = kalun_masks
 			}
-			change_religion = kalun_masks
+			#change_religion = kalun_masks
 			force_converted = yes
 		}
 		if = {

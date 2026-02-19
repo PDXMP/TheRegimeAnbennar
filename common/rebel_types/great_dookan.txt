@@ -156,7 +156,7 @@ great_dookan_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = great_dookan } }
 				}
-				change_religion = great_dookan
+				#change_religion = great_dookan
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -234,7 +234,7 @@ great_dookan_rebels = {
 				NOT = { religion = great_dookan }
 				dominant_religion = great_dookan
 			}
-			change_religion = great_dookan
+			#change_religion = great_dookan
 			force_converted = yes
 		}
 		if = {

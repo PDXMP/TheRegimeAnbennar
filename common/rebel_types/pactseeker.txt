@@ -156,7 +156,7 @@ pactseeker_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = pactseeker } }
 				}
-				change_religion = pactseeker
+				#change_religion = pactseeker
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -234,7 +234,7 @@ pactseeker_rebels = {
 				NOT = { religion = pactseeker }
 				dominant_religion = pactseeker
 			}
-			change_religion = pactseeker
+			#change_religion = pactseeker
 			force_converted = yes
 		}
 		if = {

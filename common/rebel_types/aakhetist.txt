@@ -156,7 +156,7 @@ aakhetist_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = aakhetist } }
 				}
-				change_religion = aakhetist
+				##change_religion = aakhetist
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -234,7 +234,7 @@ aakhetist_rebels = {
 				NOT = { religion = aakhetist }
 				dominant_religion = aakhetist
 			}
-			change_religion = aakhetist
+			##change_religion = aakhetist
 			force_converted = yes
 		}
 		if = {

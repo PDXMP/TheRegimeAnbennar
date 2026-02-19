@@ -156,7 +156,7 @@ dwarven_pantheon_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = dwarven_pantheon } }
 				}
-				change_religion = dwarven_pantheon
+				##change_religion = dwarven_pantheon
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -234,7 +234,7 @@ dwarven_pantheon_rebels = {
 				NOT = { religion = dwarven_pantheon }
 				dominant_religion = dwarven_pantheon
 			}
-			change_religion = dwarven_pantheon
+			##change_religion = dwarven_pantheon
 			force_converted = yes
 		}
 		if = {

@@ -156,7 +156,7 @@ fey_court_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = fey_court } }
 				}
-				change_religion = fey_court
+				#change_religion = fey_court
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -234,7 +234,7 @@ fey_court_rebels = {
 				NOT = { religion = fey_court }
 				dominant_religion = fey_court
 			}
-			change_religion = fey_court
+			#change_religion = fey_court
 			force_converted = yes
 		}
 		if = {

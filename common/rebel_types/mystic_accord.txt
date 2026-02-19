@@ -155,7 +155,7 @@ mystic_accord_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = mystic_accord } }
 				}
-				change_religion = mystic_accord
+				#change_religion = mystic_accord
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -233,7 +233,7 @@ mystic_accord_rebels = {
 				NOT = { religion = mystic_accord }
 				dominant_religion = mystic_accord
 			}
-			change_religion = mystic_accord
+			#change_religion = mystic_accord
 			force_converted = yes
 		}
 		if = {

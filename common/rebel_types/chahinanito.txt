@@ -156,7 +156,7 @@ chahinanito_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = chahinanito } }
 				}
-				change_religion = chahinanito
+				##change_religion = chahinanito
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -234,7 +234,7 @@ chahinanito_rebels = {
 				NOT = { religion = chahinanito }
 				dominant_religion = chahinanito
 			}
-			change_religion = chahinanito
+			##change_religion = chahinanito
 			force_converted = yes
 		}
 		if = {

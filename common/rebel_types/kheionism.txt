@@ -156,7 +156,7 @@ kheionism_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = kheionism } }
 				}
-				change_religion = kheionism
+				#change_religion = kheionism
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -234,7 +234,7 @@ kheionism_rebels = {
 				NOT = { religion = kheionism }
 				dominant_religion = kheionism
 			}
-			change_religion = kheionism
+			#change_religion = kheionism
 			force_converted = yes
 		}
 		if = {

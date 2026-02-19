@@ -156,7 +156,7 @@ uelos_cult_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = uelos_cult } }
 				}
-				change_religion = uelos_cult
+				#change_religion = uelos_cult
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -219,7 +219,7 @@ uelos_cult_rebels = {
 				NOT = { religion = uelos_cult }
 				dominant_religion = uelos_cult
 			}
-			change_religion = uelos_cult
+			#change_religion = uelos_cult
 			force_converted = yes
 		}
 		if = {

@@ -156,7 +156,7 @@ un_khudai_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = un_khudai } }
 				}
-				change_religion = un_khudai
+				#change_religion = un_khudai
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -234,7 +234,7 @@ un_khudai_rebels = {
 				NOT = { religion = un_khudai }
 				dominant_religion = un_khudai
 			}
-			change_religion = un_khudai
+			#change_religion = un_khudai
 			force_converted = yes
 		}
 		if = {

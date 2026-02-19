@@ -156,7 +156,7 @@ song_servants_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = song_servants } }
 				}
-				change_religion = song_servants
+				#change_religion = song_servants
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -234,7 +234,7 @@ song_servants_rebels = {
 				NOT = { religion = song_servants }
 				dominant_religion = song_servants
 			}
-			change_religion = song_servants
+			#change_religion = song_servants
 			force_converted = yes
 		}
 		if = {

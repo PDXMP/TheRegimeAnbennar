@@ -156,7 +156,7 @@ night_coven_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = night_coven } }
 				}
-				change_religion = night_coven
+				#change_religion = night_coven
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -234,7 +234,7 @@ night_coven_rebels = {
 		# 		NOT = { religion = night_coven }
 		# 		dominant_religion = night_coven
 		# 	}
-		# 	change_religion = night_coven
+		# 	#change_religion = night_coven
 		# 	force_converted = yes
 		# }
 		if = {

@@ -156,7 +156,7 @@ black_doctrine_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = black_doctrine } }
 				}
-				change_religion = black_doctrine
+				##change_religion = black_doctrine
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -234,7 +234,7 @@ black_doctrine_rebels = {
 				NOT = { religion = black_doctrine }
 				dominant_religion = black_doctrine
 			}
-			change_religion = black_doctrine
+			##change_religion = black_doctrine
 			force_converted = yes
 		}
 		if = {

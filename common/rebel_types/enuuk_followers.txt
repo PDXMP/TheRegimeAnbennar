@@ -156,7 +156,7 @@ enuuk_followers_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = enuuk_followers } }
 				}
-				change_religion = enuuk_followers
+				##change_religion = enuuk_followers
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -234,7 +234,7 @@ enuuk_followers_rebels = {
 				NOT = { religion = enuuk_followers }
 				dominant_religion = enuuk_followers
 			}
-			change_religion = enuuk_followers
+			##change_religion = enuuk_followers
 			force_converted = yes
 		}
 		if = {

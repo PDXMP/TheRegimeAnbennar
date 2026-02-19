@@ -156,7 +156,7 @@ mother_akasik_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = mother_akasik } }
 				}
-				change_religion = mother_akasik
+				#change_religion = mother_akasik
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -234,7 +234,7 @@ mother_akasik_rebels = {
 				NOT = { religion = mother_akasik }
 				dominant_religion = mother_akasik
 			}
-			change_religion = mother_akasik
+			#change_religion = mother_akasik
 			force_converted = yes
 		}
 		if = {

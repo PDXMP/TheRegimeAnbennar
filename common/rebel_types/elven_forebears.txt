@@ -156,7 +156,7 @@ elven_forebears_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = elven_forebears } }
 				}
-				change_religion = elven_forebears
+				##change_religion = elven_forebears
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -234,7 +234,7 @@ elven_forebears_rebels = {
 				NOT = { religion = elven_forebears }
 				dominant_religion = elven_forebears
 			}
-			change_religion = elven_forebears
+			##change_religion = elven_forebears
 			force_converted = yes
 		}
 		if = {

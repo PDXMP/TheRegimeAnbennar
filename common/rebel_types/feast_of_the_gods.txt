@@ -156,7 +156,7 @@ feast_of_the_gods_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = feast_of_the_gods } }
 				}
-				change_religion = feast_of_the_gods
+				#change_religion = feast_of_the_gods
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -234,7 +234,7 @@ feast_of_the_gods_rebels = {
 				NOT = { religion = feast_of_the_gods }
 				dominant_religion = feast_of_the_gods
 			}
-			change_religion = feast_of_the_gods
+			#change_religion = feast_of_the_gods
 			force_converted = yes
 		}
 		if = {

@@ -156,7 +156,7 @@ yudunyovi_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = yudunyovi } }
 				}
-				change_religion = yudunyovi
+				#change_religion = yudunyovi
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -234,7 +234,7 @@ yudunyovi_rebels = {
 				NOT = { religion = yudunyovi }
 				dominant_religion = yudunyovi
 			}
-			change_religion = yudunyovi
+			#change_religion = yudunyovi
 			force_converted = yes
 		}
 		if = {

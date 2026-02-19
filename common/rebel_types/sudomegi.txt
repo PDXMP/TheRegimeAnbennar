@@ -156,7 +156,7 @@ sudomegi_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = sudomegi } }
 				}
-				change_religion = sudomegi
+				#change_religion = sudomegi
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -234,7 +234,7 @@ sudomegi_rebels = {
 				NOT = { religion = sudomegi }
 				dominant_religion = sudomegi
 			}
-			change_religion = sudomegi
+			#change_religion = sudomegi
 			force_converted = yes
 		}
 		if = {

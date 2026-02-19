@@ -156,7 +156,7 @@ eagle_worship_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = eagle_worship } }
 				}
-				change_religion = eagle_worship
+				##change_religion = eagle_worship
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -234,7 +234,7 @@ eagle_worship_rebels = {
 				NOT = { religion = eagle_worship }
 				dominant_religion = eagle_worship
 			}
-			change_religion = eagle_worship
+			##change_religion = eagle_worship
 			force_converted = yes
 		}
 		if = {
