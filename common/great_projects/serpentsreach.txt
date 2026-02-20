@@ -265,7 +265,7 @@ verkal_skomdihr_warding_gate = {
 			owner = {
 				add_country_modifier = {
 					name = verkal_skomdihr_warding_gate_extra_firepower
-					duration = 5475
+					duration = 3650
 				}
 			}
 		}
@@ -548,7 +548,7 @@ arg_ordstun_great_clast_shafts = {
 			owner = {
 				add_country_modifier = {
 					name = arg_ordstun_great_clast_shafts_development
-					duration = 5475
+					duration = 3650
 				}
 			}
 		}

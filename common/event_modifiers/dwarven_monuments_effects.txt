@@ -19,7 +19,7 @@ gor_vazumbrog_the_vaulthold_secrets {
 }
 
 verkal_skomdihr_warding_gate_extra_firepower {
-	fire_damage = 0.15
+	fire_damage = 0.1
 }
 
 amlharaz_assembly_hold_council {
@@ -27,15 +27,15 @@ amlharaz_assembly_hold_council {
 }
 
 verkal_dromak_mage_academy_mages_summon_large_damestear_meteor {
-	trade_goods_size = 1
+	trade_goods_size = 0.5
 }
 
 orlazam_food_silos_shrimp_fried_rice {
-	land_attrition = -0.15
+	land_attrition = -0.1
 }
 
 ramvault_mines_rise_of_the_rams {
-	cavalry_power = 0.2
+	cavalry_power = 0.1
 }
 
 emerald_spire_emerald_deposit_beneath_the_spire {
@@ -52,18 +52,18 @@ sedadhum_discovery_of_mithril_medium {
 }
 
 sedadhum_discovery_of_mithril_large {
-	trade_goods_size = 1
+	trade_goods_size = 0.5
 	trade_goods_size_modifier = 0.33
 }
 
 haraz_orldhum_nobles_pleased_with_hold_improvements {
 	nobles_loyalty_modifier = 0.1
-	nobles_influence_modifier = 0.05
-	stability_cost_modifier = -0.2
+	nobles_influence_modifier = 0.1
+	stability_cost_modifier = -0.1
 }
 
 ovdal_az_an_display_of_state_power {
-	global_autonomy = -0.1
+	global_autonomy = -0.05
 	diplomatic_reputation = 2
 }
 
@@ -75,11 +75,11 @@ marrhold_tatake_tatake {
 tuwad_dhumakon_gardens_prosperity {
 	global_prosperity_growth = 0.5
 	global_monthly_devastation = -0.25
-	development_cost = -0.1
+	#development_cost = -0.1
 }
 
 khugdihr_bank_generous_interest_rates {
-	interest = -0.5
+	interest = -0.3
 }
 
 earthseed_missionaries {
@@ -90,16 +90,16 @@ earthseed_missionaries {
 
 ovdal_kanzad_cannon_foundry_experimental_artillery {
 	backrow_artillery_damage = 0.1
-	siege_ability = 0.15
+	#siege_ability = 0.15
 }
 
 arg_ordstun_great_clast_shafts_development (
-	development_cost = -0.1
+	development_cost = -0.05
 }
 
 ovdal_lodhum_tunnel_of_love_colonizing_the_serpentspine {
 	colonists = 1
-	colony_cost_modifier = -0.5
+	#colony_cost_modifier = -0.5
 }
 
 grozumdhir_green_gate_friendlier_relations {
@@ -113,7 +113,7 @@ kronium_throne_one_throne_to_rule_them_all {
 }
 
 seghdihr_home_of_the_seg_band_warriors_of_the_segbandal {
-	fire_damage = 0.1
+	#fire_damage = 0.1
 	artillery_fire = 0.25
 }
 
@@ -123,7 +123,7 @@ verkal_ozovar_phokhao_citadel_enhanced_diplomacy {
 }
 
 ovdal_tungr_port_hold_ship_durability {
-	heavy_ship_power = 0.1
+	#heavy_ship_power = 0.1
 	ship_durability = 0.1
 }
 

@@ -269,7 +269,7 @@ ovdal_tungr_port_hold = {
 			owner = {
 				add_country_modifier = {
 					name = ovdal_tungr_port_hold_ship_durability
-					duration = 5475
+					duration = 3650
 				}
 			}
 		}
@@ -432,7 +432,7 @@ marrhold_gate_to_the_serpentspine = {
 				}
 				add_country_modifier = {
 					name = marrhold_tatake_tatake
-					duration = 7300
+					duration = 3650
 				}	
 			}
 		}

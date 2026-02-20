@@ -289,7 +289,7 @@ ovdal_kanzad_cannon_foundry = {
 			owner = {
 				add_country_modifier = {
 					name = ovdal_kanzad_cannon_foundry_experimental_artillery
-					duration = 7300
+					duration = 3650
 				}
 			}
 		}
