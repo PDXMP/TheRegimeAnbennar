@@ -77,7 +77,7 @@ kronium_throne = {
 			trade_goods_size_modifier = 0.05
 		}
 		country_modifiers = {
-			yearly_absolutism = 0.25
+			#yearly_absolutism = 0.25
 			governing_capacity_modifier = 0.025
 		}
 		on_upgraded = {
@@ -96,10 +96,10 @@ kronium_throne = {
 			trade_goods_size_modifier = 0.075
 		}
 		country_modifiers = {
-			yearly_absolutism = 0.5
-			max_absolutism = 5
+			#yearly_absolutism = 0.5
+			#max_absolutism = 5
 			governing_capacity_modifier = 0.05
-			administrative_efficiency = 0.025
+			#administrative_efficiency = 0.025
 		}
 		on_upgraded = {
 		}
@@ -117,10 +117,10 @@ kronium_throne = {
 			trade_goods_size_modifier = 0.1
 		}
 		country_modifiers = {
-			yearly_absolutism = 1
-			max_absolutism = 10
+			#yearly_absolutism = 1
+			#max_absolutism = 10
 			governing_capacity_modifier = 0.1
-			administrative_efficiency = 0.05
+			#administrative_efficiency = 0.05
 		}
 		on_upgraded = {
 			owner = {
@@ -255,7 +255,7 @@ amlharaz_assembly = {
 		country_modifiers = {
 			diplomats = 1
 			diplomatic_reputation = 1
-			allow_client_states = yes
+			#allow_client_states = yes
 		}
 		on_upgraded = {
 		add_base_production = 3
@@ -387,7 +387,7 @@ fortress_of_verkal_vazkron = {
 		}
 		area_modifier = {
 			local_defensiveness = 0.5
-			local_defender_dice_roll_bonus = 1
+			#local_defender_dice_roll_bonus = 1
 		}
 		country_modifiers = {
 			defensiveness = 0.1
@@ -479,7 +479,7 @@ hall_of_the_ancestors = {
 			trade_value_modifier = 0.025
 		}
 		country_modifiers = {
-			manpower_in_culture_group_provinces = 0.05
+			#manpower_in_culture_group_provinces = 0.05
 			culture_conversion_cost = -0.05
 			culture_conversion_time = -0.1
 		}
@@ -499,7 +499,7 @@ hall_of_the_ancestors = {
 			trade_value_modifier = 0.05
 		}
 		country_modifiers = {
-			manpower_in_culture_group_provinces = 0.1
+			#manpower_in_culture_group_provinces = 0.1
 			culture_conversion_cost = -0.1
 			culture_conversion_time = -0.2
 		}
@@ -519,7 +519,7 @@ hall_of_the_ancestors = {
 			trade_value_modifier = 0.1
 		}
 		country_modifiers = {
-			manpower_in_culture_group_provinces = 0.15
+			#manpower_in_culture_group_provinces = 0.15
 			culture_conversion_cost = -0.15
 			culture_conversion_time = -0.33
 		}
@@ -604,8 +604,9 @@ er_natvir_railyard = {
 			local_friendly_movement_speed = 0.1
 		}
 		country_modifiers = {
-			movement_speed = 0.05
-			envoy_travel_time = -0.1 
+			#movement_speed = 0.05
+			envoy_travel_time = -0.1
+			global_supply_limit_modifier = 0.05
 		}
 		on_upgraded = {
 		}
@@ -625,9 +626,9 @@ er_natvir_railyard = {
 			local_friendly_movement_speed = 0.2
 		}
 		country_modifiers = {
-			movement_speed = 0.075
+			#movement_speed = 0.075
 			envoy_travel_time = -0.2
-			global_supply_limit_modifier = 0.15
+			global_supply_limit_modifier = 0.1
 		}
 		on_upgraded = {
 		}
@@ -647,9 +648,9 @@ er_natvir_railyard = {
 			local_friendly_movement_speed = 0.33
 		}
 		country_modifiers = {
-			movement_speed = 0.1
+			#movement_speed = 0.1
 			envoy_travel_time = -0.33
-			global_supply_limit_modifier = 0.33
+			global_supply_limit_modifier = 0.15
 		}
 		on_upgraded = {
 			owner = {
@@ -658,7 +659,7 @@ er_natvir_railyard = {
 					trait = goal_oriented_personality
 					fire = 2
 					shock = 3
-					manuever = 12
+					manuever = 8
 					siege = 1
 				}
 			}
@@ -762,7 +763,7 @@ kozenad_brothel = {
 		area_modifier = {			
 		}
 		region_modifier = {
-			local_unrest = -3
+			local_unrest = -2
 		}
 		country_modifiers = {
 			heir_chance = 0.3
@@ -784,7 +785,7 @@ kozenad_brothel = {
 		area_modifier = {			
 		}
 		region_modifier = {
-			local_unrest = -5
+			local_unrest = -3
 		}
 		country_modifiers = {
 			heir_chance = 0.5
@@ -871,13 +872,13 @@ mithradhum_academy = {
 		}
 		province_modifiers = {
 			local_institution_spread = 0.1
-			trade_goods_size = 0.25
+			trade_goods_size = 0.1
 		}
 		area_modifier = {		
 		}
 		country_modifiers = {
 			army_tradition_decay = -0.001
-			yearly_army_professionalism = 0.001
+			#yearly_army_professionalism = 0.001
 		}
 		on_upgraded = {
 		}
@@ -891,13 +892,13 @@ mithradhum_academy = {
 		}
 		province_modifiers = {
 			local_institution_spread = 0.2
-			trade_goods_size = 0.5
+			trade_goods_size = 0.25
 		}
 		area_modifier = {		
 		}
 		country_modifiers = {
 			army_tradition_decay = -0.003
-			yearly_army_professionalism = 0.003
+			#yearly_army_professionalism = 0.003
 		}
 		on_upgraded = {
 			owner = {
@@ -917,13 +918,13 @@ mithradhum_academy = {
 		}
 		province_modifiers = {
 			local_institution_spread = 0.33
-			trade_goods_size = 1
+			trade_goods_size = 0.5
 		}
 		area_modifier = {			
 		}
 		country_modifiers = {
 			army_tradition_decay = -0.005
-			yearly_army_professionalism = 0.005
+			#yearly_army_professionalism = 0.005
 		}
 		on_upgraded = {
 			add_building = university
@@ -1049,8 +1050,8 @@ orldhum_estates = {
 		country_modifiers = {
 			nobles_influence_modifier = 0.025
 			nobles_loyalty_modifier = 0.05
-			global_autonomy = -0.03
-			morale_damage_received = -0.025
+			global_autonomy = -0.02
+			#morale_damage_received = -0.025
 		}
 		on_upgraded = {
 			add_base_manpower = 2
@@ -1077,8 +1078,8 @@ orldhum_estates = {
 		country_modifiers = {
 			nobles_influence_modifier = 0.05
 			nobles_loyalty_modifier = 0.1
-			global_autonomy = -0.05
-			morale_damage_received = -0.05
+			global_autonomy = -0.3
+			#morale_damage_received = -0.05
 		}
 		on_upgraded = {
 			add_base_manpower = 3
@@ -1172,7 +1173,7 @@ khugdihr_bank = {
 		country_modifiers = {
 			inflation_reduction = 0.05
 			inflation_action_cost = -0.15
-			interest = -0.25
+			#interest = -0.25
 		}
 		on_upgraded = {
 		}
@@ -1193,7 +1194,7 @@ khugdihr_bank = {
 		country_modifiers = {
 			inflation_reduction = 0.07
 			inflation_action_cost = -0.20
-			interest = -0.5
+			#interest = -0.5
 		}
 		on_upgraded = {
 			define_advisor = {
@@ -1223,7 +1224,7 @@ khugdihr_bank = {
 		country_modifiers = {
 			inflation_reduction = 0.1
 			inflation_action_cost = -0.25
-			interest = -1
+			#interest = -1
 		}
 		on_upgraded = {
 			owner = {
@@ -1310,12 +1311,12 @@ orlazam_food_silos = {
 		area_modifier = {
 		}
 		region_modifier = {
-			supply_limit_modifier = 0.2
+			supply_limit_modifier = 0.1
 		}
 		country_modifiers = {
 			land_attrition = -0.05
 			global_prosperity_growth = 0.1
-			global_monthly_devastation = -0.05
+			#global_monthly_devastation = -0.05
 		}
 		on_upgraded = {
 		}
@@ -1334,12 +1335,12 @@ orlazam_food_silos = {
 		area_modifier = {
 		}
 		region_modifier = {
-			supply_limit_modifier = 0.33
+			supply_limit_modifier = 0.2
 		}
 		country_modifiers = {
 			land_attrition = -0.1
 			global_prosperity_growth = 0.3
-			global_monthly_devastation = -0.1
+			#global_monthly_devastation = -0.1
 		}
 		on_upgraded = {
 		}
@@ -1359,12 +1360,12 @@ orlazam_food_silos = {
 		area_modifier = {
 		}
 		region_modifier = {
-			supply_limit_modifier = 0.5
+			supply_limit_modifier = 0.3
 		}
 		country_modifiers = {
 			land_attrition = -0.15
 			global_prosperity_growth = 0.5
-			global_monthly_devastation = -0.15
+			#global_monthly_devastation = -0.15
 		}
 		on_upgraded = {
 			owner = {
@@ -1442,12 +1443,12 @@ ramvault_mines = {
 		province_modifiers = {
 		}
 		area_modifier = {
-			local_development_cost = -0.2
+			local_development_cost = -0.1
 			trade_goods_size = 0.5
 		}
 		country_modifiers = {
 			cavalry_cost = -0.05
-			cav_to_inf_ratio = 0.1
+			#cav_to_inf_ratio = 0.1
 		}
 		on_upgraded = {
 			change_province_name = "Razstunad Mines"
@@ -1477,13 +1478,13 @@ ramvault_mines = {
 		province_modifiers = {
 		}
 		area_modifier = {
-			local_development_cost = -0.4
-			trade_goods_size = 1
+			local_development_cost = -0.2
+			trade_goods_size = 0.75
 			allowed_num_of_buildings = 1
 		}
 		country_modifiers = {
 			cavalry_cost = -0.1
-			cav_to_inf_ratio = 0.15
+			#cav_to_inf_ratio = 0.15
 		}
 		on_upgraded = {
 			add_base_production = 3
@@ -1499,13 +1500,13 @@ ramvault_mines = {
 		province_modifiers = {
 		}
 		area_modifier = {
-			local_development_cost = -0.6
-			trade_goods_size = 1.5
+			local_development_cost = -0.3
+			trade_goods_size = 1
 			allowed_num_of_buildings = 1
 		}
 		country_modifiers = {
 			cavalry_cost = -0.15
-			cav_to_inf_ratio = 0.25
+			#cav_to_inf_ratio = 0.25
 			leader_land_manuever = 1
 		}
 		on_upgraded = {
@@ -1597,7 +1598,7 @@ vazhatun_observatory = {
 		}
 		country_modifiers = {
 			adm_tech_cost_modifier = -0.025
-			dip_tech_cost_modifier = -0.025
+			#dip_tech_cost_modifier = -0.025
 		}
 		on_upgraded = {
 			owner = { 
@@ -1621,7 +1622,7 @@ vazhatun_observatory = {
 		}
 		country_modifiers = {
 			adm_tech_cost_modifier = -0.05
-			dip_tech_cost_modifier = -0.05
+			#dip_tech_cost_modifier = -0.05
 		}
 		on_upgraded = {
 			owner = { 
@@ -1646,7 +1647,7 @@ vazhatun_observatory = {
 		}
 		country_modifiers = {
 			adm_tech_cost_modifier = -0.1
-			dip_tech_cost_modifier = -0.1
+			#dip_tech_cost_modifier = -0.1
 		}
 		on_upgraded = {
 			owner = { 
@@ -1870,7 +1871,7 @@ jorkad_aqueduct = {
 		area_modifier = {		
 		}
 		country_modifiers = {
-			state_maintenance_modifier = -0.1
+			state_maintenance_modifier = -0.05
 			garrison_size = 0.1
 			garrison_damage = 0.1
 		}
@@ -1892,9 +1893,9 @@ jorkad_aqueduct = {
 			allowed_num_of_buildings = 1
 		}
 		country_modifiers = {
-			state_maintenance_modifier = -0.15
-			garrison_size = 0.2
-			garrison_damage = 0.2
+			state_maintenance_modifier = -0.075
+			garrison_size = 0.15
+			garrison_damage = 0.15
 		}
 		on_upgraded = {
 		}
@@ -1912,15 +1913,16 @@ jorkad_aqueduct = {
 			local_hostile_attrition = 1
 			local_defender_dice_roll_bonus = 1
 		}
-		area_modifier = {		
-		}
-		region_modifier = {
+		area_modifier = {	
 			allowed_num_of_buildings = 1
 		}
+		region_modifier = {
+			#allowed_num_of_buildings = 1
+		}
 		country_modifiers = {
-			state_maintenance_modifier = -0.25
-			garrison_size = 0.33
-			garrison_damage = 0.33
+			state_maintenance_modifier = -0.1
+			garrison_size = 0.25
+			garrison_damage = 0.25
 		}
 		on_upgraded = {
 		}
@@ -1996,8 +1998,8 @@ sedadhum_mining_settlement = {
 		area_modifier = {
 		}
 		country_modifiers = {
-			shock_damage = 0.02
-			shock_damage_received = -0.01
+			#shock_damage = 0.02
+			#shock_damage_received = -0.01
 		}
 		on_upgraded = {
 			change_trade_goods = mithril
@@ -2021,8 +2023,8 @@ sedadhum_mining_settlement = {
 		area_modifier = {
 		}
 		country_modifiers = {
-			shock_damage = 0.04
-			shock_damage_received = -0.02
+			#shock_damage = 0.04
+			#shock_damage_received = -0.02
 		}
 		on_upgraded = {
 			remove_province_modifier = sedadhum_discovery_of_mithril_small
@@ -2046,8 +2048,8 @@ sedadhum_mining_settlement = {
 		area_modifier = {
 		}
 		country_modifiers = {
-			shock_damage = 0.06
-			shock_damage_received = -0.03
+			#shock_damage = 0.06
+			#shock_damage_received = -0.03
 		}
 		on_upgraded = {
 			center_of_trade = 1
