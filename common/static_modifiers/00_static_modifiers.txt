@@ -835,7 +835,7 @@ unconditional_surrender = {
 }
 
 call_for_peace = {
-	war_exhaustion = 0.005 #1.35
+	#war_exhaustion = 0.005 #1.35
 }
 
 war_exhaustion = {
