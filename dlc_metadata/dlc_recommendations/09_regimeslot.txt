@@ -36,6 +36,7 @@ regime_not_playable = {
 				tag = I40 #Cursed Howl
 				tag = I41 #Sapchopper
 				tag = H91 #Roadwarrior
+				tag = H81 #Masked Butcher
 			}
 		}
 	}
