@@ -1211,7 +1211,7 @@ country_event = { # Age Revival
 	#is_triggered_only = yes
 
 	mean_time_to_happen = {
-		months = 140
+		months = 300
 		modifier = {
 			factor = 0.8
 			ruler_has_personality = free_thinker_personality
