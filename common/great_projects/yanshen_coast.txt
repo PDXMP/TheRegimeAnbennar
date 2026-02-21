@@ -122,7 +122,7 @@ tianlou_jewel_of_yanshen = {
 		country_modifiers = {
 			prestige = 0.5
 			trade_efficiency = 0.1
-			merchants = 1
+			#merchants = 1
 		}
 		on_upgraded = {
 		}
@@ -210,7 +210,7 @@ tianlou_xuezhefang_eunuch_academy = {
 		}
 		country_modifiers = {
 			governing_capacity = 25
-			expand_administration_cost = -0.1
+			#expand_administration_cost = -0.1
 			eunuchs_anb_loyalty_modifier = 0.025
 		}
 		on_upgraded = {
@@ -236,7 +236,7 @@ tianlou_xuezhefang_eunuch_academy = {
 		}
 		country_modifiers = {
 			governing_capacity = 50
-			expand_administration_cost = -0.3
+			#expand_administration_cost = -0.3
 			eunuchs_anb_loyalty_modifier = 0.05
 			eunuchs_anb_influence_modifier = 0.025
 		}
@@ -272,7 +272,7 @@ tianlou_xuezhefang_eunuch_academy = {
 		}
 		country_modifiers = {
 			governing_capacity = 100
-			expand_administration_cost = -0.5
+			#expand_administration_cost = -0.5
 			eunuchs_anb_loyalty_modifier = 0.1
 			eunuchs_anb_influence_modifier = 0.05
 		}
@@ -379,10 +379,10 @@ jiangdu_haoshitzi = {
 		}
 		country_modifiers = {
 			global_trade_power = 0.05
-			burghers_loyalty_modifier = 0.025
+			#burghers_loyalty_modifier = 0.025
 		}
 		on_upgraded = {
-			add_mercantilism = 3
+			add_mercantilism = 5
 			owner = {
 				add_estate_loyalty = {
 					estate = estate_burghers
@@ -406,9 +406,9 @@ jiangdu_haoshitzi = {
 		}
 		country_modifiers = {
 			global_trade_power = 0.1
-			mercantilism_cost = -0.1
-			burghers_loyalty_modifier = 0.05
-			burghers_influence_modifier = 0.025
+			#mercantilism_cost = -0.1
+			#burghers_loyalty_modifier = 0.05
+			#burghers_influence_modifier = 0.025
 		}
 		on_upgraded = {
 			add_mercantilism = 5
@@ -435,12 +435,12 @@ jiangdu_haoshitzi = {
 		}
 		country_modifiers = {
 			global_trade_power = 0.15
-			mercantilism_cost = -0.25
-			burghers_loyalty_modifier = 0.1
-			burghers_influence_modifier = 0.05
+			#mercantilism_cost = -0.25
+			#burghers_loyalty_modifier = 0.1
+			#burghers_influence_modifier = 0.05
 		}
 		on_upgraded = {
-			add_mercantilism = 10
+			add_mercantilism = 5
 			owner = {
 				add_estate_loyalty = {
 					estate = estate_burghers
@@ -594,15 +594,15 @@ luoyip_house_of_fire_and_water = {
 			center_of_trade = 1
 			owner = {
 				change_innovativeness = 3
-				if = {
-					limit = {
-						NOT = { has_country_flag = artificery_unlocked }
-					}
-					country_event = {
-						id = magic_artificery_setup.1
-						days = 1
-					}
-				}
+				#if = {
+				#	limit = {
+				#		NOT = { has_country_flag = artificery_unlocked }
+				#	}
+				#	country_event = {
+				#		id = magic_artificery_setup.1
+				#		days = 1
+				#	}
+				#}
 			}
 		}
 	}
@@ -689,6 +689,7 @@ yinquan_the_conquerors_hotspring = {
 			factor = 500
 		}
 		province_modifiers = {
+			local_development_cost = -0.05
 		}
 		area_modifier = {
 			local_tax_modifier = 0.2
@@ -710,13 +711,13 @@ yinquan_the_conquerors_hotspring = {
 			factor = 1500
 		}
 		province_modifiers = {
-			local_development_cost = -0.05
+			local_development_cost = -0.1
 		}
 		area_modifier = {
 			local_tax_modifier = 0.33
 		}
 		region_modifier = {
-			local_unrest = -3
+			local_unrest = -2
 		}
 		country_modifiers = {
 			prestige = 0.25
@@ -732,13 +733,13 @@ yinquan_the_conquerors_hotspring = {
 			factor = 3000
 		}
 		province_modifiers = {
-			local_development_cost = -0.1
+			local_development_cost = -0.15
 		}
 		area_modifier = {
 			local_tax_modifier = 0.5
 		}
 		region_modifier = {
-			local_unrest = -5
+			local_unrest = -3
 		}
 		country_modifiers = {
 			prestige = 0.5

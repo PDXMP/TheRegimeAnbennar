@@ -84,7 +84,7 @@ prukakhin_bazaar_of_blood_and_ivory = {
 		}
 		country_modifiers = {
 			trade_range_modifier = 0.1
-			burghers_loyalty_modifier = 0.025
+			#burghers_loyalty_modifier = 0.025
 			placed_merchant_power = 5
 		}
 		on_upgraded = {
@@ -110,8 +110,8 @@ prukakhin_bazaar_of_blood_and_ivory = {
 		}
 		country_modifiers = {
 			trade_range_modifier = 0.2
-			burghers_loyalty_modifier = 0.05
-			burghers_influence_modifier = 0.025
+			#burghers_loyalty_modifier = 0.05
+			#burghers_influence_modifier = 0.025
 			placed_merchant_power = 10
 		}
 		on_upgraded = {
@@ -145,8 +145,8 @@ prukakhin_bazaar_of_blood_and_ivory = {
 		}
 		country_modifiers = {
 			trade_range_modifier = 0.33
-			burghers_loyalty_modifier = 0.1
-			burghers_influence_modifier = 0.05
+			#burghers_loyalty_modifier = 0.1
+			#burghers_influence_modifier = 0.05
 			placed_merchant_power = 15
 		}
 		on_upgraded = {
@@ -237,14 +237,14 @@ phaethmen_di_phaemruk_shipyard_district = {
 		province_modifiers = {
 			local_development_cost = -0.05
 			local_sailors_modifier = 0.25
-			ship_recruit_speed = -0.2
+			#ship_recruit_speed = -0.2
 		}
 		area_modifier = {
 		}
 		country_modifiers = {
 			naval_forcelimit_modifier = 0.025
 			galley_cost = -0.05
-			galley_power = 0.025
+			#galley_power = 0.025
 		}
 		on_upgraded = {
 			add_base_production = 1
@@ -260,14 +260,14 @@ phaethmen_di_phaemruk_shipyard_district = {
 		province_modifiers = {
 			local_development_cost = -0.1
 			local_sailors_modifier = 0.5
-			ship_recruit_speed = -0.33
+			#ship_recruit_speed = -0.33
 		}
 		area_modifier = {
 		}
 		country_modifiers = {
 			naval_forcelimit_modifier = 0.05
 			galley_cost = -0.1
-			galley_power = 0.05
+			#galley_power = 0.05
 		}
 		on_upgraded = {
 			add_base_production = 2
@@ -283,14 +283,14 @@ phaethmen_di_phaemruk_shipyard_district = {
 		province_modifiers = {
 			local_development_cost = -0.15
 			local_sailors_modifier = 1
-			ship_recruit_speed = -0.5
+			#ship_recruit_speed = -0.5
 		}
 		area_modifier = {
 		}
 		country_modifiers = {
 			naval_forcelimit_modifier = 0.1
 			galley_cost = -0.15
-			galley_power = 0.1
+		#	galley_power = 0.1
 		}
 		on_upgraded = {
 			center_of_trade = 1
@@ -300,7 +300,7 @@ phaethmen_di_phaemruk_shipyard_district = {
 					name = "Kakada of Skarkaophe"
 					trait = ram_raider_personality
 					fire = 3
-					shock = 8
+					shock = 6
 					manuever = 5
 					siege = 0
 				}
@@ -394,7 +394,7 @@ phaethmen_di_the_saccharine_garden = {
 		}
 		country_modifiers = {
 			prestige_decay = -0.001
-			recover_army_morale_speed = 0.04
+			#recover_army_morale_speed = 0.04
 		}
 		on_upgraded = {
 			add_base_tax = 1
@@ -410,14 +410,14 @@ phaethmen_di_the_saccharine_garden = {
 		}
 		province_modifiers = {
 			local_development_cost = -0.1
-			local_manpower_modifier = 0.2
+			local_manpower_modifier = 0.15
 		}
 		area_modifier = {
 			local_monthly_devastation = -0.12
 		}
 		country_modifiers = {
 			prestige_decay = -0.003
-			recover_army_morale_speed = 0.08
+			#recover_army_morale_speed = 0.08
 		}
 		on_upgraded = {
 			add_base_tax = 1
@@ -433,7 +433,7 @@ phaethmen_di_the_saccharine_garden = {
 		}
 		province_modifiers = {
 			local_development_cost = -0.15
-			local_manpower_modifier = 0.33
+			local_manpower_modifier = 0.2
 			allowed_num_of_buildings = 1
 		}
 		area_modifier = {
@@ -441,7 +441,7 @@ phaethmen_di_the_saccharine_garden = {
 		}
 		country_modifiers = {
 			prestige_decay = -0.005
-			recover_army_morale_speed = 0.12
+			#recover_army_morale_speed = 0.12
 			monthly_splendor = 1
 		}
 		on_upgraded = {
@@ -528,13 +528,13 @@ lapnam_amrik_weapon_market = {
 			factor = 1000
 		}
 		province_modifiers = {
-			local_development_cost = -0.05
+			local_development_cost = -0.1
 		}
 		area_modifier = {
 		}
 		country_modifiers = {
 			daulophs_loyalty_modifier = 0.025
-			infantry_power = 0.05
+			#infantry_power = 0.05
 		}
 		on_upgraded = {
 			add_estate_loyalty = {
@@ -551,7 +551,7 @@ lapnam_amrik_weapon_market = {
 			factor = 2500
 		}
 		province_modifiers = {
-			local_development_cost = -0.1
+			local_development_cost = -0.15
 			province_trade_power_value = 5
 		}
 		area_modifier = {
@@ -559,8 +559,8 @@ lapnam_amrik_weapon_market = {
 		country_modifiers = {
 			daulophs_loyalty_modifier = 0.05
 			daulophs_influence_modifier = 0.025
-			infantry_power = 0.05
-			cavalry_power = 0.05
+			#infantry_power = 0.05
+			#cavalry_power = 0.05
 		}
 		on_upgraded = {
 			add_estate_loyalty = {
@@ -577,7 +577,7 @@ lapnam_amrik_weapon_market = {
 			factor = 5000
 		}
 		province_modifiers = {
-			local_development_cost = -0.15
+			local_development_cost = -0.2
 			province_trade_power_value = 10
 		}
 		area_modifier = {
@@ -585,9 +585,9 @@ lapnam_amrik_weapon_market = {
 		country_modifiers = {
 			daulophs_loyalty_modifier = 0.1
 			daulophs_influence_modifier = 0.05
-			infantry_power = 0.05
-			cavalry_power = 0.05
-			artillery_power = 0.05
+			#infantry_power = 0.05
+			#cavalry_power = 0.05
+			#artillery_power = 0.05
 		}
 		on_upgraded = {
 			add_estate_loyalty = {
@@ -675,13 +675,13 @@ lapnam_amrik_teplinbasiet_arena = {
 			factor = 1000
 		}
 		province_modifiers = {
-			local_regiment_cost = -0.05
+			#local_regiment_cost = -0.05
 		}
 		area_modifier = {
 			local_manpower_modifier = 0.1
 		}
 		country_modifiers = {
-			land_maintenance_modifier = -0.025
+			#land_maintenance_modifier = -0.025
 			merc_leader_army_tradition = 0.15
 			army_tradition_from_battle = 0.25
 		}
@@ -696,15 +696,15 @@ lapnam_amrik_teplinbasiet_arena = {
 			factor = 2500
 		}
 		province_modifiers = {
-			local_regiment_cost = -0.1
+			#local_regiment_cost = -0.1
 		}
 		area_modifier = {
-			local_manpower_modifier = 0.2
+			local_manpower_modifier = 0.15
 		}
 		country_modifiers = {
 			merc_leader_army_tradition = 0.3
 			army_tradition_from_battle = 0.5
-			land_maintenance_modifier = -0.05
+			#land_maintenance_modifier = -0.05
 		}
 		on_upgraded = {
 		}
@@ -717,15 +717,15 @@ lapnam_amrik_teplinbasiet_arena = {
 			factor = 5000
 		}
 		province_modifiers = {
-			local_regiment_cost = -0.2
+			#local_regiment_cost = -0.2
 		}
 		area_modifier = {
-			local_manpower_modifier = 0.33
+			local_manpower_modifier = 0.2
 		}
 		country_modifiers = {
 			merc_leader_army_tradition = 0.5
 			army_tradition_from_battle = 1
-			land_maintenance_modifier = -0.1
+			#land_maintenance_modifier = -0.1
 		}
 		on_upgraded = {
 		}

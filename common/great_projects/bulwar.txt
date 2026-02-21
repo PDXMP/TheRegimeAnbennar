@@ -80,13 +80,15 @@ temple_of_surael = {
 			factor = 1000
 		}
 		province_modifiers = {
+			local_development_cost = -0.1
 		}
 		area_modifier = {
 		}
 		country_modifiers = {
-			war_exhaustion = -0.01
-			tolerance_own = 0.25
-			global_missionary_strength = 0.01
+			#war_exhaustion = -0.01
+			tolerance_own = 0.5
+			#global_missionary_strength = 0.01
+			prestige_decay = -0.001
 		}
 		on_upgraded = {
 		}
@@ -99,13 +101,16 @@ temple_of_surael = {
 			factor = 2500
 		}
 		province_modifiers = {
+			local_development_cost = -0.15
+			allowed_num_of_buildings = 1
 		}
 		area_modifier = {
 		}
 		country_modifiers = {
-			war_exhaustion = -0.02
-			tolerance_own = 0.5
-			global_missionary_strength = 0.02
+			#war_exhaustion = -0.02
+			tolerance_own = 1
+			global_missionary_strength = 0.01
+			prestige_decay = -0.003
 		}
 		on_upgraded = {
 		}
@@ -118,13 +123,16 @@ temple_of_surael = {
 			factor = 5000
 		}
 		province_modifiers = {
+			local_development_cost = -0.2
+			allowed_num_of_buildings = 1
 		}
 		area_modifier = {
 		}
 		country_modifiers = {
-			war_exhaustion = -0.03
-			tolerance_own = 1
-			global_missionary_strength = 0.03
+			#war_exhaustion = -0.03
+			tolerance_own = 1.5
+			global_missionary_strength = 0.02
+			prestige_decay = -0.005
 		}
 		on_upgraded = {
 		}
@@ -214,7 +222,7 @@ hanging_gardens = {
 			trade_goods_size_modifier = 0.1
 		}
 		country_modifiers = {
-			num_accepted_cultures = 1
+			#num_accepted_cultures = 1
 			stability_cost_modifier = -0.05
 		}
 		on_upgraded = {
@@ -231,11 +239,11 @@ hanging_gardens = {
 			local_development_cost = -0.15
 		}
 		area_modifier = {
-			trade_goods_size_modifier = 0.15
+			trade_goods_size_modifier = 0.1
 			local_prosperity_growth = 0.5
 		}
 		country_modifiers = {
-			num_accepted_cultures = 2
+			#num_accepted_cultures = 2
 			stability_cost_modifier = -0.1
 		}
 		on_upgraded = {
@@ -252,11 +260,11 @@ hanging_gardens = {
 			local_development_cost = -0.2
 		}
 		area_modifier = {
-			trade_goods_size_modifier = 0.25
+			trade_goods_size_modifier = 0.15
 			local_prosperity_growth = 1
 		}
 		country_modifiers = {
-			num_accepted_cultures = 3
+			#num_accepted_cultures = 3
 			stability_cost_modifier = -0.15
 		}
 		on_upgraded = {
@@ -366,8 +374,8 @@ fortress_azka_szel = {
 		}
 		country_modifiers = {
 			missionary_maintenance_cost = -0.2
-			manpower_in_true_faith_provinces = 0.1
-			establish_order_cost = -0.05
+			manpower_in_true_faith_provinces = 0.075
+			#establish_order_cost = -0.05
 		}
 		on_upgraded = {
 		}
@@ -386,8 +394,8 @@ fortress_azka_szel = {
 		}
 		country_modifiers = {
 			missionary_maintenance_cost = -0.33
-			manpower_in_true_faith_provinces = 0.15
-			establish_order_cost = -0.1
+			manpower_in_true_faith_provinces = 0.1
+			#establish_order_cost = -0.1
 		}
 		on_upgraded = {
 		}
@@ -498,7 +506,7 @@ fortress_azka_sur = {
 		country_modifiers = {
 			prestige = 0.25
 			prestige_from_land = 1
-			garrison_size = 0.2
+			garrison_size = 0.15
 		}
 		on_upgraded = {
 		}
@@ -518,7 +526,7 @@ fortress_azka_sur = {
 		country_modifiers = {
 			prestige = 0.5
 			prestige_from_land = 1.5
-			garrison_size = 0.33
+			garrison_size = 0.2
 		}
 		on_upgraded = {
 		}
@@ -612,11 +620,12 @@ sun_dial = {
 			factor = 1000
 		}
 		province_modifiers = {
+			local_development_cost = -0.1
 		}
 		area_modifier = {
 		}
 		country_modifiers = {
-			warscore_cost_vs_other_religion = -0.05
+			#warscore_cost_vs_other_religion = -0.05
 			fire_damage = 0.05
 		}
 		on_upgraded = {
@@ -630,11 +639,12 @@ sun_dial = {
 			factor = 2500
 		}
 		province_modifiers = {
+			local_development_cost = -0.15
 		}
 		area_modifier = {
 		}
 		country_modifiers = {
-			warscore_cost_vs_other_religion = -0.1
+			#warscore_cost_vs_other_religion = -0.1
 			fire_damage = 0.075
 		}
 		on_upgraded = {
@@ -648,11 +658,12 @@ sun_dial = {
 			factor = 5000
 		}
 		province_modifiers = {
+			local_development_cost = -0.2
 		}
 		area_modifier = {
 		}
 		country_modifiers = {
-			warscore_cost_vs_other_religion = -0.15
+			#warscore_cost_vs_other_religion = -0.15
 			fire_damage = 0.1
 		}
 		on_upgraded = {
@@ -740,7 +751,7 @@ bazaar_brasan = {
 			local_development_cost = -0.05
 		}
 		area_modifier = {
-			trade_goods_size_modifier = 0.1
+			#trade_goods_size_modifier = 0.1
 		}
 		country_modifiers = {
 			trade_efficiency = 0.025
@@ -761,7 +772,7 @@ bazaar_brasan = {
 			province_trade_power_value = 5
 		}
 		area_modifier = {
-			trade_goods_size_modifier = 0.2
+			#trade_goods_size_modifier = 0.2
 		}
 		country_modifiers = {
 			trade_efficiency = 0.05
@@ -782,7 +793,7 @@ bazaar_brasan = {
 			province_trade_power_value = 10
 		}
 		area_modifier = {
-			trade_goods_size_modifier = 0.33
+			#trade_goods_size_modifier = 0.33
 		}
 		country_modifiers = {
 			trade_efficiency = 0.1
@@ -870,8 +881,8 @@ port_emperor = {
 			factor = 1000
 		}
 		province_modifiers = {
-			local_ship_cost = -0.1
-			local_ship_repair = 0.25
+			#local_ship_cost = -0.1
+			#local_ship_repair = 0.25
 		}
 		area_modifier = {
 			local_sailors_modifier = 0.25
@@ -891,15 +902,15 @@ port_emperor = {
 			factor = 2500
 		}
 		province_modifiers = {
-			local_ship_cost = -0.2
-			local_ship_repair = 0.5
+			#local_ship_cost = -0.2
+			#local_ship_repair = 0.5
 		}
 		area_modifier = {
 			local_sailors_modifier = 0.5
 		}
 		country_modifiers = {
-			naval_maintenance_modifier = -0.1
-			naval_forcelimit_modifier = 0.1
+			naval_maintenance_modifier = -0.075
+			naval_forcelimit_modifier = 0.075
 		}
 		on_upgraded = {
 		}
@@ -912,15 +923,15 @@ port_emperor = {
 			factor = 5000
 		}
 		province_modifiers = {
-			local_ship_cost = -0.33
-			local_ship_repair = 1
+			#local_ship_cost = -0.33
+			#local_ship_repair = 1
 		}
 		area_modifier = {
 			local_sailors_modifier = 1
 		}
 		country_modifiers = {
-			naval_maintenance_modifier = -0.15
-			naval_forcelimit_modifier = 0.15
+			naval_maintenance_modifier = -0.1
+			naval_forcelimit_modifier = 0.1
 			max_flagships = 1
 		}
 		on_upgraded = {
@@ -1009,13 +1020,14 @@ temple_sun = {
 			factor = 1000
 		}
 		province_modifiers = {
+			local_development_cost = -0.1
 		}
 		area_modifier = {
 		}
 		country_modifiers = {
 			global_heretic_missionary_strength = 0.01
 			church_loyalty_modifier = 0.05
-			enforce_religion_cost = -0.1
+			#enforce_religion_cost = -0.1
 		}
 		on_upgraded = {
 			owner = {
@@ -1034,14 +1046,16 @@ temple_sun = {
 			factor = 2500
 		}
 		province_modifiers = {
+			local_development_cost = -0.15
+			allowed_num_of_buildings = 1
 		}
 		area_modifier = {
 		}
 		country_modifiers = {
-			global_heretic_missionary_strength = 0.03
+			global_heretic_missionary_strength = 0.02
 			church_loyalty_modifier = 0.075
 			church_influence_modifier = 0.025
-			enforce_religion_cost = -0.2
+			#enforce_religion_cost = -0.2
 		}
 		on_upgraded = {
 			owner = {
@@ -1060,14 +1074,16 @@ temple_sun = {
 			factor = 5000
 		}
 		province_modifiers = {
+			local_development_cost = -0.2
+			allowed_num_of_buildings = 1
 		}
 		area_modifier = {
 		}
 		country_modifiers = {
-			global_heretic_missionary_strength = 0.05
+			global_heretic_missionary_strength = 0.03
 			church_loyalty_modifier = 0.1
 			church_influence_modifier = 0.05
-			enforce_religion_cost = -0.33
+			#enforce_religion_cost = -0.33
 		}
 		on_upgraded = {
 			owner = {
@@ -1167,13 +1183,14 @@ moon_mountains = {
 			factor = 1000
 		}
 		province_modifiers = {
+			local_development_cost = -0.1
 		}
 		area_modifier = {
 		}
 		country_modifiers = {
-			idea_cost = -0.025
-			hostile_attrition = 0.5
-			land_attrition = -0.05
+			idea_cost = -0.05
+			#hostile_attrition = 0.5
+			#land_attrition = -0.05
 		}
 		on_upgraded = {
 			owner = {
@@ -1192,13 +1209,15 @@ moon_mountains = {
 			factor = 2500
 		}
 		province_modifiers = {
+			local_development_cost = -0.15
+			allowed_num_of_buildings = 1
 		}
 		area_modifier = {
 		}
 		country_modifiers = {
 			idea_cost = -0.05
-			hostile_attrition = 1
-			land_attrition = -0.1
+			hostile_attrition = 0.5
+			land_attrition = -0.05
 		}
 		on_upgraded = {
 			owner = {
@@ -1217,13 +1236,15 @@ moon_mountains = {
 			factor = 5000
 		}
 		province_modifiers = {
+			local_development_cost = -0.2
+			allowed_num_of_buildings = 1
 		}
 		area_modifier = {
 		}
 		country_modifiers = {
-			idea_cost = -0.075
-			hostile_attrition = 1.5
-			land_attrition = -0.15
+			idea_cost = -0.05
+			hostile_attrition = 1
+			land_attrition = -0.1
 		}
 		on_upgraded = {
 			owner = {
@@ -1320,7 +1341,7 @@ stone_palace = {
 		}
 		country_modifiers = {
 			advisor_cost = -0.05
-			yearly_corruption = -0.05
+			#yearly_corruption = -0.05
 		}
 		on_upgraded = {
 		}
@@ -1340,7 +1361,7 @@ stone_palace = {
 		}
 		country_modifiers = {
 			advisor_cost = -0.075
-			yearly_corruption = -0.1
+			yearly_corruption = -0.05
 		}
 		on_upgraded = {
 		}
@@ -1361,7 +1382,7 @@ stone_palace = {
 		}
 		country_modifiers = {
 			advisor_cost = -0.1
-			yearly_corruption = -0.15
+			yearly_corruption = -0.1
 		}
 		on_upgraded = {
 		}
@@ -1450,7 +1471,7 @@ eranils_oddities = {
 		area_modifier = {
 		}
 		region_modifier = {
-			local_development_cost = -0.025
+			#local_development_cost = -0.025
 		}
 		country_modifiers = {
 		}
@@ -1471,7 +1492,7 @@ eranils_oddities = {
 		area_modifier = {
 		}
 		region_modifier = {
-			local_development_cost = -0.05
+			#local_development_cost = -0.05
 		}
 		country_modifiers = {
 		}
@@ -1490,10 +1511,10 @@ eranils_oddities = {
 			province_trade_power_value = 10
 		}
 		area_modifier = {
-			allowed_num_of_manufactories = 1
+			#allowed_num_of_manufactories = 1
 		}
 		region_modifier = {
-			local_development_cost = -0.1
+			#local_development_cost = -0.1
 		}
 		country_modifiers = {
 		}

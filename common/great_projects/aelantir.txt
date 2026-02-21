@@ -58,7 +58,7 @@ atlantis = {
 		}
 		country_modifiers = {
 			administrative_efficiency = 0.025
-			naval_forcelimit_modifier = 0.1
+			naval_forcelimit_modifier = 0.05
 		}
 		on_upgraded = {
 		}
@@ -95,7 +95,7 @@ atlantis = {
 		country_modifiers = {
 			administrative_efficiency = 0.05
 			naval_forcelimit_modifier = 0.15
-			free_policy = 1
+			#free_policy = 1
 		}
 		on_upgraded = {
 		}
@@ -178,7 +178,7 @@ malacnar_city_of_warriors = {
 		}
 		country_modifiers = {
 			army_tradition_from_battle = 0.25
-			drill_decay_modifier = -0.1
+			#drill_decay_modifier = -0.1
 		}
 		on_upgraded = {
 			add_base_manpower = 1
@@ -196,12 +196,12 @@ malacnar_city_of_warriors = {
 			province_trade_power_value = 5
 		}
 		area_modifier = {
-			local_manpower_modifier = 0.2
+			local_manpower_modifier = 0.15
 		}
 		country_modifiers = {
 			army_tradition_from_battle = 0.5
-			drill_decay_modifier = -0.2
-			infantry_power = 0.025
+			#drill_decay_modifier = -0.2
+			#infantry_power = 0.025
 		}
 		on_upgraded = {
 			add_base_manpower = 2
@@ -227,12 +227,12 @@ malacnar_city_of_warriors = {
 			province_trade_power_value = 10
 		}
 		area_modifier = {
-			local_manpower_modifier = 0.33
+			local_manpower_modifier = 0.2
 		}
 		country_modifiers = {
 			army_tradition_from_battle = 0.75
-			drill_decay_modifier = -0.33
-			infantry_power = 0.05
+			#drill_decay_modifier = -0.33
+			#infantry_power = 0.05
 		}
 		on_upgraded = {
 			add_base_manpower = 3
@@ -240,7 +240,7 @@ malacnar_city_of_warriors = {
 			owner = {
 				add_country_modifier = {
 					name = malacnar_city_of_warriors_greatest_warriors_of_all_the_ynn
-					duration = 7300
+					duration = 3650
 				}
 			}
 		}
@@ -359,14 +359,14 @@ vels_bacar_scol_mecynn = {
 		area_modifier = {
 		}
 		country_modifiers = {
-			shock_damage = 0.10
+			shock_damage = 0.05
 			shock_damage_received = -0.05
 		}
 		on_upgraded = {
 			owner = {
 				add_country_modifier = {
 					name = vels_bacar_scol_mecynn_like_water
-					duration = 5475
+					duration = 3650
 				}
 			}
 		}
@@ -451,7 +451,7 @@ grebniesth_hedge_gardens = {
 		}
 		country_modifiers = {
 			prestige_decay = -0.001
-			recover_army_morale_speed = 0.04
+			#recover_army_morale_speed = 0.04
 		}
 		on_upgraded = {
 		}
@@ -469,11 +469,11 @@ grebniesth_hedge_gardens = {
 		area_modifier = {
 		}
 		region_modifier = {
-			local_unrest = -3
+			local_unrest = -2
 		}
 		country_modifiers = {
 			prestige_decay = -0.003
-			recover_army_morale_speed = 0.08
+			recover_army_morale_speed = 0.05
 		}
 		on_upgraded = {
 		}
@@ -492,11 +492,11 @@ grebniesth_hedge_gardens = {
 		area_modifier = {
 		}
 		region_modifier = {
-			local_unrest = -5
+			local_unrest = -3
 		}
 		country_modifiers = {
 			prestige_decay = -0.005
-			recover_army_morale_speed = 0.12
+			recover_army_morale_speed = 0.1
 			monthly_splendor = 1
 		}
 		on_upgraded = {
@@ -626,7 +626,7 @@ orenkoraim_nakar_koraim = {
 		}
 		country_modifiers = {
 			trade_steering = 0.15
-			merchants = 1
+			#merchants = 1
 		}
 		on_upgraded = {
 			center_of_trade = 1
@@ -716,13 +716,14 @@ gift_of_spring = {
 			factor = 1000
 		}
 		province_modifiers = {
+			local_development_cost = -0.1
 		}
 		area_modifier = {
 		}
 		country_modifiers = {
-			reinforce_cost_modifier = -0.1
-			global_manpower_modifier = 0.1
-			development_cost = -0.05
+			reinforce_cost_modifier = -0.05
+			global_manpower_modifier = 0.05
+			#development_cost = -0.05
 		}
 		on_upgraded = {
 		}
@@ -735,13 +736,15 @@ gift_of_spring = {
 			factor = 2500
 		}
 		province_modifiers = {
+			local_development_cost = -0.15
+			allowed_num_of_buildings = 1
 		}
 		area_modifier = {
 		}
 		country_modifiers = {
-			reinforce_cost_modifier = -0.2
-			global_manpower_modifier = 0.15
-			development_cost = -0.1
+			reinforce_cost_modifier = -0.075
+			global_manpower_modifier = 0.075
+			#development_cost = -0.1
 		}
 		on_upgraded = {
 		}
@@ -754,13 +757,15 @@ gift_of_spring = {
 			factor = 5000
 		}
 		province_modifiers = {
+			local_development_cost = -0.2
+			allowed_num_of_buildings = 1
 		}
 		area_modifier = {
 		}
 		country_modifiers = {
-			reinforce_cost_modifier = -0.33
-			global_manpower_modifier = 0.2
-			development_cost = -0.15
+			reinforce_cost_modifier = -0.1
+			global_manpower_modifier = 0.1
+			#development_cost = -0.15
 		}
 		on_upgraded = {
 		}
@@ -846,11 +851,12 @@ gift_of_summer = {
 			factor = 1000
 		}
 		province_modifiers = {
+			local_development_cost = -0.1
 		}
 		area_modifier = {
 		}
 		country_modifiers = {
-			global_trade_power = 0.1
+			global_trade_power = 0.05
 			trade_steering = 0.1
 		}
 		on_upgraded = {
@@ -864,12 +870,14 @@ gift_of_summer = {
 			factor = 2500
 		}
 		province_modifiers = {
+			local_development_cost = -0.15
+			allowed_num_of_buildings = 1
 		}
 		area_modifier = {
 		}
 		country_modifiers = {
 			global_trade_power = 0.1
-			trade_steering = 0.2
+			trade_steering = 0.15
 		}
 		on_upgraded = {
 		}
@@ -882,12 +890,14 @@ gift_of_summer = {
 			factor = 5000
 		}
 		province_modifiers = {
+			local_development_cost = -0.2
+			allowed_num_of_buildings = 1
 		}
 		area_modifier = {
 		}
 		country_modifiers = {
 			global_trade_power = 0.15
-			trade_steering = 0.33
+			trade_steering = 0.2
 		}
 		on_upgraded = {
 		}
@@ -973,13 +983,14 @@ gift_of_autumn = {
 			factor = 1000
 		}
 		province_modifiers = {
+			local_development_cost = -0.1
 		}
 		area_modifier = {
 		}
 		country_modifiers = {
 			culture_conversion_cost = -0.1
 			global_autonomy = -0.01
-			technology_cost = -0.025
+			#technology_cost = -0.025
 		}
 		on_upgraded = {
 		}
@@ -992,13 +1003,15 @@ gift_of_autumn = {
 			factor = 2500
 		}
 		province_modifiers = {
+			local_development_cost = -0.15
+			allowed_num_of_buildings = 1
 		}
 		area_modifier = {
 		}
 		country_modifiers = {
 			culture_conversion_cost = -0.15
 			global_autonomy = -0.03
-			technology_cost = -0.05
+			#technology_cost = -0.05
 		}
 		on_upgraded = {
 		}
@@ -1011,13 +1024,15 @@ gift_of_autumn = {
 			factor = 5000
 		}
 		province_modifiers = {
+			local_development_cost = -0.2
+			allowed_num_of_buildings = 1
 		}
 		area_modifier = {
 		}
 		country_modifiers = {
 			culture_conversion_cost = -0.25
 			global_autonomy = -0.05
-			technology_cost = -0.1
+			#technology_cost = -0.1
 		}
 		on_upgraded = {
 		}
@@ -1087,6 +1102,7 @@ gift_of_winter = {
 			factor = 0
 		}
 		province_modifiers = {
+			local_development_cost = -0.1
 		}
 		area_modifier = {
 		}
@@ -1103,6 +1119,8 @@ gift_of_winter = {
 			factor = 1000
 		}
 		province_modifiers = {
+			local_development_cost = -0.15
+			allowed_num_of_buildings = 1
 		}
 		area_modifier = {
 		}
@@ -1122,6 +1140,8 @@ gift_of_winter = {
 			factor = 2500
 		}
 		province_modifiers = {
+			local_development_cost = -0.2
+			allowed_num_of_buildings = 1
 		}
 		area_modifier = {
 		}

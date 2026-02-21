@@ -83,7 +83,7 @@ xiadao_liusibao = {
 		}
 		country_modifiers = {
 			reduced_liberty_desire_on_same_continent = 5
-			governing_capacity_modifier = 0.05
+			#governing_capacity_modifier = 0.05
 		}
 		on_upgraded = {
 		}
@@ -104,7 +104,7 @@ xiadao_liusibao = {
 		}
 		country_modifiers = {
 			reduced_liberty_desire_on_same_continent = 10
-			governing_capacity_modifier = 0.075
+			#governing_capacity_modifier = 0.075
 			diplomatic_reputation = 0.5
 		}
 		on_upgraded = {
@@ -126,7 +126,7 @@ xiadao_liusibao = {
 		}
 		country_modifiers = {
 			reduced_liberty_desire_on_same_continent = 15
-			governing_capacity_modifier = 0.1
+			#governing_capacity_modifier = 0.1
 			diplomatic_reputation = 1
 		}
 		on_upgraded = {
@@ -236,7 +236,7 @@ jilin_szienlou = {
 			local_unrest = -3
 		}
 		country_modifiers = {
-			global_autonomy = -0.03
+			global_autonomy = -0.02
 			min_autonomy_in_territories = -0.05
 		}
 		on_upgraded = {
@@ -256,7 +256,7 @@ jilin_szienlou = {
 			local_unrest = -5
 		}
 		country_modifiers = {
-			global_autonomy = -0.05
+			global_autonomy = -0.03
 			min_autonomy_in_territories = -0.1
 		}
 		on_upgraded = {
@@ -558,13 +558,13 @@ aoshan_hanging_temple = {
 			owner = {
 				add_country_modifier = {
 					name = aoshan_hanging_temple_hokuto_shinken
-					duration = 5475
+					duration = 3650
 				}
 				define_general = {
 					name = "Kenshiro"
 					trait = master_of_arms_personality
 					fire = 1
-					shock = 12
+					shock = 8
 					manuever = 4
 					siege = 1
 				}
@@ -655,7 +655,7 @@ lapnam_amrik_khram_ptaa_national_academy = {
 		area_modifier = {
 		}
 		country_modifiers = {
-			idea_cost = -0.025
+			#idea_cost = -0.025
 			adm_tech_cost_modifier = -0.025
 			dip_tech_cost_modifier = -0.025
 		}
@@ -678,7 +678,7 @@ lapnam_amrik_khram_ptaa_national_academy = {
 		area_modifier = {
 		}
 		country_modifiers = {
-			idea_cost = -0.05
+			#idea_cost = -0.05
 			adm_tech_cost_modifier = -0.05
 			dip_tech_cost_modifier = -0.05
 		}
@@ -709,7 +709,7 @@ lapnam_amrik_khram_ptaa_national_academy = {
 		area_modifier = {
 		}
 		country_modifiers = {
-			idea_cost = -0.075
+			#idea_cost = -0.075
 			adm_tech_cost_modifier = -0.075
 			dip_tech_cost_modifier = -0.075
 		}
