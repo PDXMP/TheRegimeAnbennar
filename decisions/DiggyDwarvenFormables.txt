@@ -600,6 +600,7 @@ country_decisions = {
 			NOT = { is_core = ROOT }
 		}
 		allow = {
+			always = no
 			is_state_core = 4284
 			hidden_trigger = { has_reform = dwarovar_adventurer_reform }
 			adm_tech = 7	#around 1500
