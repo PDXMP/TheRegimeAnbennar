@@ -2668,7 +2668,7 @@ anbennar_T5_human_elven = {
 	}
 	modifiers = {
 		#Positive
-		discipline = 0.05
+		discipline = 0.03
 		navy_tradition_decay = -0.01
 		movement_speed = 0.15
 		#Negative
@@ -3098,7 +3098,7 @@ anbennar_T5_human_ogre = {
 	}
 	modifiers = {
 		#Positive
-		shock_damage_received = -0.1
+		shock_damage_received = -0.05
 		fire_damage_received = -0.05
 		#Negative
 		infantry_cost = 0.1

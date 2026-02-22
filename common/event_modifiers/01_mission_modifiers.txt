@@ -4099,8 +4099,8 @@ adu_new_world_discoveries = {
 }
 
 adu_trade_hub = {
-	trade_goods_size_modifier = 0.25
-	province_trade_power_modifier = 0.25
+	trade_goods_size_modifier = 0.2
+	province_trade_power_modifier = 0.2
 }
 
 adu_native_concord = {
