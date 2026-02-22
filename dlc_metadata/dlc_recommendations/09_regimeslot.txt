@@ -32,9 +32,13 @@ regime_not_playable = {
 				tag = F47 #Verkal Gulan 
 				tag = B55 #Count's League
 				tag = B36 #Marrhold
-				tag = I43 #Silentblade
+				tag = I38 #Beasteater
+				tag = I39 #Blightseed
 				tag = I40 #Cursed Howl
 				tag = I41 #Sapchopper
+				tag = I42 #Blackmoon
+				tag = I43 #Silentblade
+				tag = I44 #Silvertusk
 				tag = H91 #Roadwarrior
 				tag = H81 #Masked Butcher
 			}
