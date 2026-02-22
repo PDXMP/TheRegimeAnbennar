@@ -90,7 +90,7 @@ nathalaire_city_of_pirates = {
 		province_modifiers = {
 			province_trade_power_value = 5
 			local_sailors_modifier = 0.25
-			ship_recruit_speed = -0.15
+			#ship_recruit_speed = -0.15
 		}
 		area_modifier = {
 		}
@@ -112,7 +112,7 @@ nathalaire_city_of_pirates = {
 		province_modifiers = {
 			province_trade_power_value = 10
 			local_sailors_modifier = 0.5
-			ship_recruit_speed = -0.25
+			#ship_recruit_speed = -0.25
 		}
 		area_modifier = {
 		}
@@ -144,14 +144,14 @@ nathalaire_city_of_pirates = {
 		province_modifiers = {
 			province_trade_power_value = 15
 			local_sailors_modifier = 1
-			ship_recruit_speed = -0.33
+			#ship_recruit_speed = -0.33
 		}
 		area_modifier = {
 		}
 		country_modifiers = {
 			spy_offence = 0.25
 			privateer_efficiency = 0.25
-			dip_advisor_cost = -0.25
+			dip_advisor_cost = -0.2
 		}
 		on_upgraded = {
 			add_base_production = 2

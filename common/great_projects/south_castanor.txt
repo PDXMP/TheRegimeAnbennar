@@ -90,7 +90,7 @@ marrhold_the_feather_academy = {
 		}
 		country_modifiers = {
 			movement_speed = 0.025
-			cavalry_flanking = 0.25
+			#cavalry_flanking = 0.25
 		}
 		on_upgraded = {
 		}
@@ -112,14 +112,14 @@ marrhold_the_feather_academy = {
 		}
 		country_modifiers = {
 			movement_speed = 0.05
-			cavalry_flanking = 0.5
+			#cavalry_flanking = 0.5
 			leader_land_manuever = 1
 		}
 		on_upgraded = {
 			owner = {
 				add_country_modifier = {
 				name = marrhold_the_feather_academy_aerial_cavalry
-				duration = 7300
+				duration = 3650
 				}
 			}
 		}
@@ -256,7 +256,7 @@ esthili_academy_of_magic = {
 		country_modifiers = {
 			mages_influence_modifier = 0.05
 			mages_loyalty_modifier = 0.1
-			monarch_military_power = 1
+			#monarch_military_power = 1
 		}
 		on_upgraded = {
 			add_base_tax = -100

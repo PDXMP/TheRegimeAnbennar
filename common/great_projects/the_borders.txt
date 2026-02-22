@@ -85,13 +85,13 @@ sorncell_deepwater_harbor = {
 		province_modifiers = {
 			local_development_cost = -0.05
 			local_sailors_modifier = 0.25
-			ship_recruit_speed = -0.1
+			#ship_recruit_speed = -0.1
 		}
 		area_modifier = {
 		}
 		country_modifiers = {
 			heavy_ship_cost = -0.05
-			heavy_ship_power = 0.025
+			#heavy_ship_power = 0.025
 		}
 		on_upgraded = {
 		}
@@ -106,14 +106,14 @@ sorncell_deepwater_harbor = {
 		province_modifiers = {
 			local_development_cost = -0.1
 			local_sailors_modifier = 0.5
-			ship_recruit_speed = -0.2
+			#ship_recruit_speed = -0.2
 		}
 		area_modifier = {
 		}
 		country_modifiers = {
 			heavy_ship_cost = -0.1
-			heavy_ship_power = 0.05
-			heavy_ship_hull_size_modifier = 0.05
+			#heavy_ship_power = 0.05
+			#heavy_ship_hull_size_modifier = 0.05
 		}
 		on_upgraded = {
 			add_base_production = 2
@@ -130,21 +130,21 @@ sorncell_deepwater_harbor = {
 		province_modifiers = {
 			local_development_cost = -0.15
 			local_sailors_modifier = 1
-			ship_recruit_speed = -0.33
+			#ship_recruit_speed = -0.33
 		}
 		area_modifier = {
 		}
 		country_modifiers = {
 			heavy_ship_cost = -0.15
-			heavy_ship_power = 0.1
-			heavy_ship_hull_size_modifier = 0.1
+			#heavy_ship_power = 0.1
+			#heavy_ship_hull_size_modifier = 0.1
 		}
 		on_upgraded = {
 			add_base_production = 2
 			owner = {
 				add_country_modifier = {
 					name = sorncell_deepwater_harbor_hardy_sailors
-					duration = 7300
+					duration = 3650
 				}
 			}
 			add_unit_construction = {

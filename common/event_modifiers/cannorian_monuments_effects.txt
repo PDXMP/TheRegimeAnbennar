@@ -2,18 +2,20 @@
 
 lorentaine_mage_academy_loyalty {
 	mages_loyalty_modifier = 0.1
-	all_power_cost = -0.025
+	#all_power_cost = -0.025
 }
 
 marrhold_the_feather_academy_aerial_cavalry {
 	cavalry_power = 0.1
-	mil_tech_cost_modifier = -0.1
+	#mil_tech_cost_modifier = -0.1
 }
 
 lorent_new_adea_naval_school_new_admiralty {
-	leader_naval_fire = 1
-	leader_naval_shock = 1
-	leader_naval_manuever = 1
+	#leader_naval_fire = 1
+	#leader_naval_shock = 1
+	#leader_naval_manuever = 1
+	navy_tradition_decay = -0.01
+	navy_tradition = 0.5
 }
 
 nathalaire_city_of_pirates_nathalynes_boon {
@@ -41,7 +43,7 @@ urviksten_ebonsteel_armory_roars_to_life {
 }
 
 ara_temple_lods_of_emone {
-	trade_efficiency = 0.1
+	#trade_efficiency = 0.1
 	global_tax_modifier = 0.1
 }
 
@@ -54,8 +56,8 @@ esthili_academy_of_magic_tier_two {
 }
 
 esthili_academy_of_magic_tier_three {
-	trade_goods_size = 1
-	trade_goods_size_modifier = 0.33
+	trade_goods_size = 0.5
+	trade_goods_size_modifier = 0.25
 }
 
 esthili_academy_of_magic_consequences_of_baneposting {
@@ -63,8 +65,8 @@ esthili_academy_of_magic_consequences_of_baneposting {
 }
 
 neckcliffe_journey_across_the_sea_of_stars {
-	naval_morale = 0.1
-	prestige_from_naval = 1
+	#naval_morale = 0.1
+	prestige_from_naval = 0.5
 }
 
 deranne_westport_derannic_colonial_enthusiasm = {
@@ -92,5 +94,5 @@ giberd_academy_of_engineering_building_boom {
 	build_time = -0.25
 }
 seinathil_institute_of_song_bardic_inspiration {
-	land_morale = 0.1
+	land_morale = 0.05
 }

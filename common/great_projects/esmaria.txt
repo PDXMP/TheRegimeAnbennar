@@ -1,3 +1,4 @@
+
 ####################
 #Esmaria
 ####################
@@ -107,13 +108,13 @@ giberd_academy_of_engineering = {
 			factor = 2500
 		}
 		province_modifiers = {
-			trade_goods_size = 1
+			trade_goods_size = 0.75
 			trade_goods_size_modifier = 0.1
 		}
 		area_modifier = {
 		}
 		region_modifier = {
-			local_development_cost = -0.025
+			#local_development_cost = -0.025
 		}
 		country_modifiers = {
 			build_cost = -0.05
@@ -134,13 +135,13 @@ giberd_academy_of_engineering = {
 			factor = 5000
 		}
 		province_modifiers = {
-			trade_goods_size = 1.5
+			trade_goods_size = 1
 			trade_goods_size_modifier = 0.15
 		}
 		area_modifier = {
 		}
 		region_modifier = {
-			local_development_cost = -0.05
+			#local_development_cost = -0.05
 		}
 		country_modifiers = {
 			build_cost = -0.1
@@ -150,15 +151,15 @@ giberd_academy_of_engineering = {
 			add_base_production = 4
 			owner = {
 				change_innovativeness = 3
-				if = {
-					limit = {
-						NOT = { has_country_flag = artificery_unlocked }
-					}
-					country_event = {
-						id = magic_artificery_setup.1
-						days = 1
-					}
-				}
+				#if = {
+				#	limit = {
+				#		NOT = { has_country_flag = artificery_unlocked }
+				#	}
+				#	country_event = {
+				#		id = magic_artificery_setup.1
+				#		days = 1
+				#	}
+				#}
 			}
 			center_of_trade = 1
 			add_building = university
@@ -248,12 +249,12 @@ telgeir_vanbury_steel_foundry = {
 		}
 		province_modifiers = {
 			trade_goods_size = 0.25
-			trade_goods_size_modifier = 0.1
+			#trade_goods_size_modifier = 0.1
 		}
 		area_modifier = {
 		}
 		country_modifiers = {
-			infantry_fire = 0.05
+			#infantry_fire = 0.05
 		}
 		on_upgraded = {
 			add_base_production = 2
@@ -268,12 +269,12 @@ telgeir_vanbury_steel_foundry = {
 		}
 		province_modifiers = {
 			trade_goods_size = 0.5
-			trade_goods_size_modifier = 0.2
+			#trade_goods_size_modifier = 0.2
 		}
 		area_modifier = {
 		}
 		country_modifiers = {
-			infantry_fire = 0.10
+			#infantry_fire = 0.10
 			fire_damage_received = -0.025
 		}
 		on_upgraded = {
@@ -289,13 +290,13 @@ telgeir_vanbury_steel_foundry = {
 		}
 		province_modifiers = {
 			trade_goods_size = 1
-			trade_goods_size_modifier = 0.33
+			#trade_goods_size_modifier = 0.33
 			allowed_num_of_manufactories = 1
 		}
 		area_modifier = {
 		}
 		country_modifiers = {
-			infantry_fire = 0.15
+			#infantry_fire = 0.15
 			fire_damage_received = -0.05
 		}
 		on_upgraded = {
@@ -452,7 +453,7 @@ temple_of_ryala = {
 			owner = {
 				add_country_modifier = {
 					name = RC_emulant_ryala_1
-					duration = 7300
+					duration = 10950
 				}
 			}
 		}
@@ -566,7 +567,7 @@ konwell_the_imperial_archives = {
 		country_modifiers = {
 			adm_advisor_cost = -0.15
 			adm_tech_cost_modifier = -0.05
-			idea_cost = -0.025
+			#idea_cost = -0.025
 		}
 		on_upgraded = {
 		}
@@ -584,9 +585,9 @@ konwell_the_imperial_archives = {
 		area_modifier = {
 		}
 		country_modifiers = {
-			adm_advisor_cost = -0.25
+			adm_advisor_cost = -0.2
 			adm_tech_cost_modifier = -0.1
-			idea_cost = -0.05
+			#idea_cost = -0.05
 		}
 		on_upgraded = {
 			owner = {
@@ -687,7 +688,7 @@ seinathil_institute_of_song = {
 			factor = 1000
 		}
 		province_modifiers = {
-			local_production_efficiency = 0.33
+			local_production_efficiency = 0.2
 		}
 		area_modifier = {
 		}
@@ -706,13 +707,13 @@ seinathil_institute_of_song = {
 			factor = 2500
 		}
 		province_modifiers = {
-			local_production_efficiency = 0.6
+			local_production_efficiency = 0.35
 		}
 		area_modifier = {
 		}
 		country_modifiers = {
 			recover_army_morale_speed = 0.05
-			war_exhaustion = -0.02
+			war_exhaustion = -0.015
 		}
 		on_upgraded = {
 		}
@@ -725,19 +726,19 @@ seinathil_institute_of_song = {
 			factor = 5000
 		}
 		province_modifiers = {
-			local_production_efficiency = 1
+			local_production_efficiency = 0.5
 		}
 		area_modifier = {
 		}
 		country_modifiers = {
 			recover_army_morale_speed = 0.1
-			war_exhaustion = -0.03
+			war_exhaustion = -0.02
 		}
 		on_upgraded = {
 			owner = {
 				add_country_modifier = {
 					name = seinathil_institute_of_song_bardic_inspiration
-					duration = 5475
+					duration = 3650
 				}
 			}
 		}

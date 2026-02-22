@@ -222,8 +222,8 @@ celmaldor_icewind_palace_of_commerce = {
 		area_modifier = {
 		}
 		country_modifiers = {
-			light_ship_power = 0.025
-			global_ship_trade_power = 0.1
+			light_ship_cost = 0.025
+			global_ship_trade_power = 0.05
 		}
 		on_upgraded = {
 		}
@@ -242,8 +242,8 @@ celmaldor_icewind_palace_of_commerce = {
 		area_modifier = {
 		}
 		country_modifiers = {
-			light_ship_power = 0.05
-			global_ship_trade_power = 0.15
+			light_ship_cost = 0.05
+			global_ship_trade_power = 0.1
 		}
 		on_upgraded = {
 			define_advisor = {
@@ -271,9 +271,9 @@ celmaldor_icewind_palace_of_commerce = {
 		area_modifier = {
 		}
 		country_modifiers = {
-			light_ship_power = 0.1
-			global_ship_trade_power = 0.2
-			merchants = 1
+			light_ship_cost = 0.1
+			global_ship_trade_power = 0.15
+			#merchants = 1
 		}
 		on_upgraded = {
 			owner = {

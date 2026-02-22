@@ -75,11 +75,11 @@ eborthil_toref_citadel = {
 		province_modifiers = {
 			local_defensiveness = 0.1
 			local_sailors_modifier = 0.25
-			hostile_fleet_attrition = 3
+			hostile_fleet_attrition = 2
 		}
 		area_modifier = {
-			hostile_disembark_speed = 0.25
-			landing_penalty = -1
+			#hostile_disembark_speed = 0.25
+			#landing_penalty = -1
 		}
 		country_modifiers = {
 			allowed_marine_fraction = 0.05
@@ -97,12 +97,12 @@ eborthil_toref_citadel = {
 		province_modifiers = {
 			local_defensiveness = 0.2
 			local_sailors_modifier = 0.5
-			hostile_fleet_attrition = 5
+			hostile_fleet_attrition = 4
 		}
 		area_modifier = {
 			block_slave_raid = yes
-			hostile_disembark_speed = 0.5
-			landing_penalty = -2
+			#hostile_disembark_speed = 0.5
+			landing_penalty = -1
 		}
 		country_modifiers = {
 			allowed_marine_fraction = 0.1
@@ -121,16 +121,16 @@ eborthil_toref_citadel = {
 		province_modifiers = {
 			local_defensiveness = 0.33
 			local_sailors_modifier = 1
-			hostile_fleet_attrition = 10
+			hostile_fleet_attrition = 6
 		}
 		area_modifier = {
 			block_slave_raid = yes
-			hostile_disembark_speed = 1
-			landing_penalty = -3
+			#hostile_disembark_speed = 1
+			landing_penalty = -2
 			allowed_num_of_buildings = 1
 		}
 		country_modifiers = {
-			allowed_marine_fraction = 0.2
+			allowed_marine_fraction = 0.15
 		}
 		on_upgraded = {
 			add_building = naval_battery
