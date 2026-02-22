@@ -609,7 +609,7 @@ dwarovar_claimer = {
 	global_supply_limit_modifier = 0.5
 	global_colonial_growth = 10 
 	advisor_cost = -0.15
-	global_tax_income = 60 (5 ducats a month)
+	global_tax_income = 60 #(5 ducats a month)
 	monthly_splendor = 2
 }
 
