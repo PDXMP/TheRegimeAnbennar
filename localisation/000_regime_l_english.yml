@@ -2,3 +2,4 @@
  r_tooltip_many_allies:0 "You may have a maximum of five alliances."
  r_tooltip_from_many_allies:0 "The target already has five alliances."
  r_tooltip_ai_ally_dev:0 "You may not ally AI countries over 75 total development."
+ r_tooltip_ai_cant_ally_player:0 "AI countries can't ally players."

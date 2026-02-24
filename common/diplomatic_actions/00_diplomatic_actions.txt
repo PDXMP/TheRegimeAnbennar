@@ -2269,6 +2269,18 @@ allianceaction = {
 			}
 		}
 	}
+	condition = {
+		tooltip = r_tooltip_ai_cant_ally_player
+		potential = {
+			is_ai = yes
+			total_development = 75
+		}
+		allow = {
+			FROM = {
+				was_player = no
+			}
+		}
+	}
 	
 }
 
