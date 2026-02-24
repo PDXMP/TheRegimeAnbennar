@@ -4581,6 +4581,14 @@ guaranteeaction = {
 			always = no
 		}
 	}
+	condition = {
+		tooltip = r_tooltip_guarantee_players
+		potential = {
+		}
+		allow = {
+			FROM = { ai = yes }
+		}
+	}
 }
 
 improve_relation = {
