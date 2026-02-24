@@ -4,3 +4,4 @@
  r_tooltip_ai_ally_dev:0 "You may not ally AI countries over 75 total development."
  r_tooltip_ai_cant_ally_player:0 "AI countries can't ally players."
  r_tooltip_guarantee:0 "You may not guarantee player countries."
+ r_tooltip_nonescann_war:0 "Countries outside of Escann may not attack countries in Escann before 1510."
