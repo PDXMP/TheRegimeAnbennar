@@ -2255,6 +2255,20 @@ allianceaction = {
 			}
 		}
 	}
+	condition = {
+		tooltip = r_tooltip_ai_ally_dev
+		potential = {
+			was_player = yes
+		}
+		allow = {
+			FROM = {
+				OR = {
+					was_player = yes
+					NOT = { total_development = 75 }
+				}
+			}
+		}
+	}
 	
 }
 
