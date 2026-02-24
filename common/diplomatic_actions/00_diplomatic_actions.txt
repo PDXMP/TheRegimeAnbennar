@@ -2272,6 +2272,7 @@ allianceaction = {
 		tooltip = r_tooltip_ai_ally_dev
 		potential = {
 			was_player = yes
+			NOT = { is_year = 1510 }
 		}
 		allow = {
 			FROM = {
@@ -2287,6 +2288,7 @@ allianceaction = {
 		potential = {
 			is_ai = yes
 			total_development = 75
+			NOT = { is_year = 1510 }
 		}
 		allow = {
 			FROM = {
