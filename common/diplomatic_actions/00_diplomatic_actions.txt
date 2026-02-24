@@ -2231,6 +2231,33 @@ allianceaction = {
 		}
 		allow = { always = no }
 	}
+	condition = {
+		tooltip = r_tooltip_from_many_allies
+		potential = {
+		}
+		allow = {
+			FROM = {
+				NOT = {
+					num_of_allies = 5
+				}
+			}
+		}
+	}
+	condition = {
+		tooltip = r_tooltip_many_allies
+		potential = {
+		}
+		allow = {
+			ROOT = {
+				NOT = {
+					num_of_allies = 5
+				}
+			}
+		}
+	}
+}
+
+	
 }
 
 enforce_peace = {
