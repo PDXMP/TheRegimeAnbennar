@@ -2268,34 +2268,34 @@ allianceaction = {
 			}
 		}
 	}
-	condition = {
-		tooltip = r_tooltip_ai_ally_dev
-		potential = {
-			was_player = yes
-			NOT = { is_year = 1510 }
-		}
-		allow = {
-			FROM = {
-				OR = {
-					was_player = yes
-					NOT = { total_development = 75 }
-				}
-			}
-		}
-	}
-	condition = {
-		tooltip = r_tooltip_ai_cant_ally_player
-		potential = {
-			is_ai = yes
-			total_development = 75
-			NOT = { is_year = 1510 }
-		}
-		allow = {
-			FROM = {
-				was_player = no
-			}
-		}
-	}
+	#condition = {
+	#	tooltip = r_tooltip_ai_ally_dev
+	#	potential = {
+	#		was_player = yes
+	#		NOT = { is_year = 1510 }
+	#	}
+	#	allow = {
+	#		FROM = {
+	#			OR = {
+	#				was_player = yes
+	#				NOT = { total_development = 75 }
+	#			}
+	#		}
+	#	}
+	#}
+	#condition = {
+	#	tooltip = r_tooltip_ai_cant_ally_player
+	#	potential = {
+	#		is_ai = yes
+	#		total_development = 75
+	#		NOT = { is_year = 1510 }
+	#	}
+	#	allow = {
+	#		FROM = {
+	#			was_player = no
+	#		}
+	#	}
+	#}
 	
 }
 
